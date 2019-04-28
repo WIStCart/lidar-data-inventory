@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128306385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128306385-1');
+</script>
+	<title>LiDAR Inventory 2018</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />-->
+	<link rel="stylesheet" href="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+	<script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+        }
+		.popup-div{
+			max-width: 300px;
+		}
+		.leaflet-top-pane {
+			pointer-events: none;
+		}
+		.leaflet-top-pane2 {
+			pointer-events: none;
+		}
+		.info {
+			padding: 6px 8px;
+			background: white;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			font-size: 16px;
+			color: #555;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+		}
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
+		.special-i{
+			opacity: 1 !important;
+		}
+		.legend-class{
+			color: #777;
+		}
+		.cartodb-logo{
+			display:none !important;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<script>
+		var embedded = false;
+		$(document).ready(function(){
+			Papa.parse("LidarData.csv", {   // results = {data: [], errors: [], meta {}}
+				download: true,
+				header: true,
+				dynamicTyping: true,
+				fastMode: false, // Fast mode speeds up parsing significantly for large inputs. However, it only works when the input has no quoted fields. Fast mode will automatically be enabled if no " characters appear in the input. You can force fast mode either way by setting it to true or false.
+				complete: function(results) {
+					//console.log(results)
+					var dataJSON = {};
+					for (key in results.data){
+						dataJSON[results.data[key].county] = results.data[key]
+					}
+					//console.log(dataJSON)
+					loadGeoJSONData(dataJSON)
+				}
+			});
+		});
+		function loadGeoJSONData(csvResults){
+			$.getScript("Map_Data.js", function(data, textStatus, jqxhr){
+				// getScript (url [,success])
+				// if success, a callback function is executed
+				//   function(String script, String textStatus, jqXHR jqXHR)
+				//    jqXHR (object that $.ajax returns) superset of XMLHTTPRequest object
+				// shorthand ajax function equivalent to:
+				// $.ajax({ url: url, dataType: "script", success; success});
+				//
+				//
+				//console.log (data);  this prints statesData dataset
+				//console.log (textStatus);
+				//console.log ( jqxhr.status);
+				//console.log ("load was performed");
+				for (key in statesData.features){
+					statesData.features[key].properties["DATA"] = csvResults[statesData.features[key].properties.name]
+					//console.log(statesData.features[key].properties["DATA"])
+					//console.log(statesData.features[key].properties["DATA"].part_full_vis)
+				}
+				//console.log(statesData)
+				$.getScript("Map.js", function(data, textStatus, jqxhr){
+					// Execute main logic of script
+					//console.log("Data loaded and prepared... Starting the script...")
+				});
+			});
+		}
+	</script>
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>-->
+	<script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
+	<script type="text/javascript" src="assets/lib/papaparse.min.js" charset="utf-8"></script>
+	<!--<script type="text/javascript" src="V4_Progress_Map_Data.js"></script> -->
+	<!-- <script type="text/javascript" src="V4_Progress_Map.js"></script> -->
+</body>
+</html>
