@@ -1,5 +1,5 @@
 var metadata = {
-	"cityOfMadison": {
+	"madison": {
 		"name": "Cify of Madison",
 		"deliveryName": "Madison 2016 City Delivery",
 		"deliveryYear": 2016,
@@ -24,7 +24,7 @@ var metadata = {
 		"contours": "N/A",
 		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Dane/Madison_2016_City_Delivery/"
 	},
-	"daneCounty": {
+	"dane": {
 		"name": "Dane County",
 		"deliveryName": "Dane 2017 3DEP Delivery",
 		"deliveryYear": 2017,
