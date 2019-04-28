@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wisconsin LiDAR Tile Search</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Find the LiDAR tiles you need in Wisconsin by selecting an area on a map.">
+	<meta name="author" content="Hayden Elza">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style type="text/css">
+		body {
+			margin: 0;
+		}
+		#map {
+			height: 100vh;
+			margin-right: 300px;
+		}
+		#sidebar {
+			float: right;
+			width: 300px;
+			height: 100vh;
+			margin: 0 1em;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.download-links {
+			margin-left: 2em;
+		}
+	</style>
+
+	<!-- Leaflet -->
+	<link rel="stylesheet" type="text/css" href="assets/leaflet/leaflet.css">
+	<script type="text/javascript" src="assets/leaflet/leaflet.js"></script>
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
+	<!-- Layers -->
+	<script type="text/javascript" src="assets/layers.js"></script>
+	<script type="text/javascript" src="assets/metadata.js"></script>
+</head>
+<body>
+	<div id="sidebar">
+		<p><h2>Select a Tile</h2></p>
+	</div>
+	<div id="map"></div>
+	
+
+	<script type="text/javascript">
+		// Set intial view
+		var map = L.map('map').setView([43.1, -89.4], 10);
+
+		// Base Layer
+		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+			maxZoom: 18,
+			id: 'mapbox.streets',
+			accessToken: 'pk.eyJ1IjoiZWx6YSIsImEiOiJjanVlNWZ5N2cwb2pyNDR0YzV2YmtteTB4In0.6BAcP2DqZG34BAyy7ug75Q'
+		}).addTo(map);
+
+		// WI Counties Layer
+		var countyStyle = {
+			"fillOpacity": 0,
+			"color": "#000",
+			"weight": 3,
+			"opacity": 0.2
+		};
+		L.geoJSON(wiCounties, {style: countyStyle}).addTo(map);
+
+		// Tile Index
+		var indexStyle = {
+			"fillOpacity": 0,
+			"color": "#000",
+			"weight": 1,
+			"opacity": 1
+		};
+
+		function highlightFeature(e) {
+			var layer = e.target;
+
+			layer.setStyle({
+				weight: 5,
+				color: '#666',
+				dashArray: '',
+				fillOpacity: 0.7
+			});
+
+			if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+				layer.bringToFront();
+			}
+		}
+
+		function resetHighlight(e) {
+			indexLayer.resetStyle(e.target);
+		}
+
+		function featureClick(e) {
+			// Update sidebar
+
+			// Get metadata
+			var tileName = e.sourceTarget.feature.properties.tileName
+			var lasURLs = metadata[e.sourceTarget.feature.properties.sourceName].lasURLs;
+			var demURLs = metadata[e.sourceTarget.feature.properties.sourceName].demURLs;
+			var terrainURLs = metadata[e.sourceTarget.feature.properties.sourceName].terrainURLs;
+			var breaklines = metadata[e.sourceTarget.feature.properties.sourceName].breaklines;
+			var contours = metadata[e.sourceTarget.feature.properties.sourceName].contours;
+			var delivery = metadata[e.sourceTarget.feature.properties.sourceName].deliveryFolder;
+
+			var html = 
+				// '<h1>' + 
+				// 	metadata[e.sourceTarget.feature.properties.sourceName].name +
+				// '</h1>' +
+				'<h2>' +
+					metadata[e.sourceTarget.feature.properties.sourceName].deliveryName +
+				'</h2><hr>' +
+				'<h3>Tile ' + e.sourceTarget.feature.properties.tileName + '</h3>' +
+				'<b>LAS:</b><br><div class="download-links">'+ genLinks(tileName,lasURLs) + '</div>' +
+				'<br>' +
+				'<b>DEM:</b><div class="download-links">' + genLinks(tileName,demURLs) + '</div>' +
+				'<br>' +
+				'<b>Terrain:</b><div class="download-links">' + genLinks(tileName,terrainURLs) + '</div>' +
+				'<br>' +
+				'<b>Breaklines:</b> ' + genLinks(tileName,breaklines) +
+				'<br><br>' +
+				'<b>Contours:</b> ' + genLinks(tileName,contours) +
+				'<br><br>' +
+				'<b>Delivery Folder:</b> ' + genLinks(tileName,delivery);			;
+
+			$("#sidebar").html(html);
+
+			// if (selected.includes(e)) {
+			// 	console.log("includes")
+			// 	console.log(selected.includes(e))
+			// 	resetHighlight(e);
+			// }
+			// highlightFeature(e);
+			// selected.push(e);
+			// console.log("selected")
+			// console.log(selected)
+
+		}
+		// var selected = [];
+
+		function genLinks(tileName,urls) {
+			// If string not object
+			if (typeof urls === 'string') {
+				var url = urls;
+				if (urls == "N/A") { return url }
+				else { return '<a target="_blank" href="' + url + '">directory</a>' }
+			}
+
+			// Prepare html blob
+			var htmlContent = "";
+			
+			for (source in urls) {
+				
+				var url = urls[source];
+
+				// Special case if only one link
+				if (source == "null") { return '<a target="_blank" href="' + url[0] + tileName + url[1] + '">' + tileName + url[1] + '</a> <a target="_blank" href="' + url[0] + '">directory</a>' }
+
+				// All other cases where multiple
+				if (htmlContent != "") {htmlContent = htmlContent + "<br>"}
+				htmlContent = htmlContent + '<a target="_blank" href="' + url[0] + tileName + url[1] + '">' + source + '</a> <a target="_blank" href="' + url[0] + '">directory</a>';
+			}
+			return htmlContent
+		}
+
+		function onEachFeature(feature, layer) {
+			// layer.bindPopup(feature.properties.sourceName + "<br>" + feature.properties.tileName);
+
+			layer.on({
+				mouseover: highlightFeature,
+				mouseout: resetHighlight,
+				click: featureClick
+			});
+		}
+
+		var indexLayer = L.geoJSON(tileIndex, {
+			style: function(feature) {
+				switch (feature.properties.sourceName) {
+					case 'daneCounty': return {color: "#000000"};
+					case 'cityOfMadison': return {color: "#0000ff"};
+				}
+			},
+			onEachFeature: onEachFeature
+		}).addTo(map);
+
+	</script>
+
+	
+</body>
+</html>
