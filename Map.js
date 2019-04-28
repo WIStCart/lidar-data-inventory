@@ -111,7 +111,7 @@ var cartoCSSCounty = "#layer { " +
 
 
 isItMobile = detectMobile();
-console.log (isItMobile);
+// console.log (isItMobile);
 if (isItMobile == false){
 	southWest = L.latLng(42.301420, -95.451081),
 	northEast = L.latLng(47.016127, -83.751573),
@@ -250,7 +250,7 @@ legend.addTo(map);
 var info = L.control();
 
 info.onAdd = function (map) {
-	console.log(this)
+	// console.log(this)
 	this._div = L.DomUtil.create('div', 'info');
 	this.update();
 	return this._div;
@@ -272,7 +272,7 @@ info.update = function (props) {
 
 //if (isItMobile == false){
 info.addTo(map);
-console.log(info)
+// console.log(info)
 //}
 
 geojson = L.geoJson(statesData, {
