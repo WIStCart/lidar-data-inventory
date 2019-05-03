@@ -9,6 +9,6 @@ Tile search uses ```layer``` parameter in the url to pass which acquistion to vi
 
 acquistion | layer 
 --- | ---
-Dane 2017 3DEP Delivery | [```dane```](https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane)
-Madison 2016 City Delivery | [```madison```](https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=madison)
-Iron 2015 County Delivery | [```iron```](https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=iron)
+Dane 2017 3DEP Delivery | [```dane```](https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane){target="_blank"}
+Madison 2016 City Delivery | [```madison```](https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=madison){target="_blank"}
+Iron 2015 County Delivery | [```iron```](https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=iron){target="_blank"}
