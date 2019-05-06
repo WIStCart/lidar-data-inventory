@@ -111,7 +111,7 @@ var cartoCSSCounty = "#layer { " +
 
 
 isItMobile = detectMobile();
-// console.log (isItMobile);
+console.log (isItMobile);
 if (isItMobile == false){
 	southWest = L.latLng(42.301420, -95.451081),
 	northEast = L.latLng(47.016127, -83.751573),
@@ -250,7 +250,7 @@ legend.addTo(map);
 var info = L.control();
 
 info.onAdd = function (map) {
-	// console.log(this)
+	console.log(this)
 	this._div = L.DomUtil.create('div', 'info');
 	this.update();
 	return this._div;
@@ -265,14 +265,14 @@ info.update = function (props) {
 	}
 	this._div.innerHTML = (
 	props ?
-		'<div class="popup-div"><text style="font-size:16px; line-height:16px;"><b>' + props.name + ' County </br> <hr/> <text style="font-size:14px; line-height:14px;"> WisconsinView LiDAR Data </b></br>  </text> <text style="font-size:11px; line-height:11px;">  <b>Year of acquisition: </b>'+ props.DATA.adq + '<br />	<b>WisconsinView FTP: </b>' + props.DATA.url + '<b> HTTP: </b>' + props.DATA.http + '<br />	<b>Classified LAS: </b>' + props.DATA.las + '<br />	<b>Bare Earth: </b>' + props.DATA.bare_earth + '<br /> <b>Breaklines: </b>' + props.DATA.breaklines + '<br /> <b>Contours: </b>' + props.DATA.contours + '<br/>	<b>Tile DEMs: </b>' + props.DATA.Tile_dem + '<br/> <b>County DEM: </b>' + props.DATA.Co_DEM + '<br/> <b>Terrain: </b>' + props.DATA.terrain + '<br/> <b>DSM: </b>' + props.DATA.DSM + '<br />	 <b>Metadata/Control Report: </b>' + props.DATA.Mdata + '<br />	 <b>Notes: </b>' +	props.DATA.notes + ' <hr/>	<text style="font-size:14px; line-height:14px;"><b>' + props.name + ' County LiDAR Data/Info </b><br/></text> <text style="font-size:11px; line-height:11px;"> <b> County URL: </b>' + props.DATA.co_url + '<br /> <b>Data available for download: </b>' + props.DATA.data + '<br /> <b>Notes: </b>' + props.DATA.notes2 + '<br /> </text></div>'
+		'<div class="popup-div"><text style="font-size:16px; line-height:16px;"><b>' + props.name + ' County </br> <hr/> <text style="font-size:14px; line-height:14px;"> WisconsinView LiDAR Data </b></br>  </text> <text style="font-size:11px; line-height:11px;">  <b>Year of acquisition: </b>'+ props.DATA.adq + '<br />	<b>WisconsinView FTP: </b>' + props.DATA.url + '<b> HTTP: </b>' + props.DATA.http + '<br />	<b>Classified LAS: </b>' + props.DATA.las + '<br />	<b>Bare Earth: </b>' + props.DATA.bare_earth + '<br /> <b>Breaklines: </b>' + props.DATA.breaklines + '<br /> <b>Contours: </b>' + props.DATA.contours + '<br/>	<b>Tile DEMs: </b>' + props.DATA.Tile_dem + '<br/> <b>County DEM: </b>' + props.DATA.Co_DEM + '<br/> <b>Terrain: </b>' + props.DATA.terrain + '<br/> <b>DSM: </b>' + props.DATA.DSM + '<br />	 <b>Metadata/Control Report: </b>' + props.DATA.Mdata + '<br />	<b>Tile index: </b>' + props.DATA.Tile_index + '<br /> <b>Notes: </b>' +	props.DATA.notes + ' <hr/>	<text style="font-size:14px; line-height:14px;"><b>' + props.name + ' County LiDAR Data/Info </b><br/></text> <text style="font-size:11px; line-height:11px;"> <b> County URL: </b>' + props.DATA.co_url + '<br /> <b>Data available for download: </b>' + props.DATA.data + '<br /> <b>Notes: </b>' + props.DATA.notes2 + '<br /> </text></div>'
 		: actionVar + ' an area.'
 	);
 };
 
 //if (isItMobile == false){
 info.addTo(map);
-// console.log(info)
+console.log(info)
 //}
 
 geojson = L.geoJson(statesData, {
