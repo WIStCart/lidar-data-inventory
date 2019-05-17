@@ -97,13 +97,13 @@ function genLinks(tileName,urls) {
 			for (var i = 1; i < url.length; i++) {
 				links = links + '<a target="_blank" href="' + url[0] + tileName + url[i] + '">' + tileName + url[i] + '</a><br>'
 			}
-			links = links +  '<a target="_blank" href="' + url[0] + '">directory</a>'
+			links = links +  '<a target="_blank" href="' +  url[0].substring(0, url[0].lastIndexOf("/") + 1) + '">directory</a>'
 			return links
 		}
 
 		// If multiple sources
 		if (htmlContent != "") {htmlContent = htmlContent + "<br>"}
-		htmlContent = htmlContent + '<a target="_blank" href="' + url[0] + tileName + url[1] + '">' + source + '</a> <a target="_blank" href="' + url[0] + '">directory</a>';
+		htmlContent = htmlContent + '<a target="_blank" href="' + url[0] + tileName + url[1] + '">' + source + '</a> <a target="_blank" href="' +  url[0].substring(0, url[0].lastIndexOf("/") + 1) + '">directory</a>';
 	}
 	return htmlContent
 }
@@ -160,10 +160,6 @@ var indexStyle = {
 	"weight": 1,
 	"opacity": 1
 };
-
-
-
-
 
 // Add tile index
 var indexLayer = L.geoJson.ajax("layers/" + layerName + ".geojson", {
