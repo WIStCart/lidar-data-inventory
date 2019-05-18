@@ -9,7 +9,7 @@ function highlight(layer) {
 
 	if (!L.Browser.ie && !L.Browser.opera) {
 		layer.bringToFront();
-		selected.bringToFront();
+		if(selected !== null){ selected.bringToFront(); }
 	}
 }
 
@@ -72,7 +72,7 @@ function featureClick(e) {
 	// Insert html string into document
 	$("#sidebar").html(html);
 
-	layer.bringToFront();
+	if(typeof layer !== "undefined"){ layer.bringToFront(); }
 
 }
 
