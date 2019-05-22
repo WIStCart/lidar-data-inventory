@@ -234,11 +234,15 @@ var metadata = {
 		"lasURLs": {
 			"LAS": [
 				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Classified_LAS/LAS/",
-				""
+				".las"
 			],
 			"SHP": [
 				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Classified_LAS/SHP/",
-				""
+				".dbf",
+				".prj",
+				".SHP",
+				".shp.xml",
+				".shx"
 			]
 		},
 		"demURLs": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Raster_DEM_County/",
@@ -246,7 +250,12 @@ var metadata = {
 		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Hydro_Breaklines/",
 		"contours": {
 			null: [
-				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Contours_2ft/"
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Contours_2ft/",
+				".dbf",
+				".prj",
+				".shp",
+				".shp.xml",
+				".shx"
 			]
 		},
 		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/"
