@@ -18,3 +18,9 @@ Buffalo 2016 3DEP Delivery | <a href="https://wistcart.github.io/lidar-data-inve
 Burnett 2015 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=burnett" target="_blank">```burnett```</a>
 Calumet 2005 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=calumet" target="_blank">```calumet```</a>
 Crawford 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=crawford" target="_blank">```crawford```</a>
+Douglas 2016 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=douglas" target="_blank">```douglas```</a>
+Florence 2015 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=florence" target="_blank">```florence```</a>
+Forest 2017 3DEP Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=forest" target="_blank">```forest```</a>
+Grant 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=grant" target="_blank">```grant```</a>
+Green 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=green" target="_blank">```green```</a>
+Iowa 2010 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=iowa" target="_blank">```iowa```</a>

@@ -259,5 +259,187 @@ var metadata = {
 			]
 		},
 		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/"
+	},
+	"douglas": {
+		"name": "Douglas County",
+		"deliveryName": "Douglas 2016 County Delivery",
+		"deliveryYear": 2016,
+		"lasURLs": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Douglas/Douglas_2016_County_Delivery/Classified_LAS/",
+				".las"
+			]
+		},
+		"demURLs": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Douglas/Douglas_2016_County_Delivery/Rasters_DEM_County/",
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Douglas/Douglas_2016_County_Delivery/Hydro_Breaklines/",
+		"contours": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Douglas/Douglas_2016_County_Delivery/Contours_2ft/",
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Douglas/Douglas_2016_County_Delivery/"
+	},
+	"florence": {
+		"name": "Florence County",
+		"deliveryName": "Florence 2015 County Delivery",
+		"deliveryYear": 2015,
+		"lasURLs": {
+			"LAS": [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Classified_LAS/LAS/",
+				".las",
+				".lax"
+			],
+			"SHP": [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Classified_LAS/SHP/",
+				".dbf",
+				".prj",
+				".shp",
+				".shx"
+			]
+		},
+		"demURLs": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Raster_DEM_Tiles/",
+				"_elev.flt",
+				"_elev.hdr",
+				"_elev.prj"
+			]
+		},
+		"dsmURLs": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Raster_DSM_Tiles/",
+				"_elev.flt",
+				"_elev.hdr",
+				"_elev.prj"
+			]
+		},
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Hydro_Breaklines/",
+		"contours": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Contours_2ft/SHP/",
+				".cpg",
+				".dbf",
+				".prj",
+				".shp",
+				".shx"
+			]
+		},
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/"
+	},
+	"forest": {
+		"name": "Forest County",
+		"deliveryName": "Forest 2017 3DEP Delivery",
+		"deliveryYear": 2017,
+		"lasURLs": {
+			"ESRI": [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Forest/Forest_2017_3DEP_Delivery/Classified_LAS/ESRI/",
+				"_esri.las"
+			],
+			"USGS": [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Forest/Forest_2017_3DEP_Delivery/Classified_LAS/USGS/",
+				"_usgs.las"
+			]
+		},
+		"demURLs": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Forest/Forest_2017_3DEP_Delivery/Raster_DEM_Tiles/",
+				".img"
+			]
+		},
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Forest/Forest_2017_3DEP_Delivery/Hydro_Breaklines/",
+		"contours": "N/A",
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Forest/Forest_2017_3DEP_Delivery/"
+	},
+	"grant": {
+		"name": "Grant County",
+		"deliveryName": "Grant 2011 County Delivery",
+		"deliveryYear": 2011,
+		"lasURLs": {
+			"LAS": [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Grant/Grant_2011_County_Delivery/Classified_LAS/LAS/",
+				".las"
+			],
+			"SHP": [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Grant/Grant_2011_County_Delivery/Classified_LAS/SHP/",
+				"_POINTS.dbf",
+				"_POINTS.prj",
+				"_POINTS.SHP",
+				"_POINTS.shp.xml",
+				"_POINTS.shx"
+			]
+		},
+		"demURLs": "N/A",
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Grant/Grant_2011_County_Delivery/Hydro_Breaklines/SHP/",
+		"contours": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Grant/Grant_2011_County_Delivery/Contours_2ft/SHP/",
+				".dbf",
+				".prj",
+				".shp",
+				".shx"
+			]
+		},
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Grant/Grant_2011_County_Delivery/"
+	},
+	"green": {
+		"name": "Green County",
+		"deliveryName": "Green 2011 County Delivery",
+		"deliveryYear": 2011,
+		"lasURLs": {
+			"LAS": [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Classified_LAS/LAS/",
+				".las"
+			],
+			"SHP": [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Classified_LAS/SHP/",
+				"_POINTS.dbf",
+				"_POINTS.prj",
+				"_POINTS.SHP",
+				"_POINTS.shp.xml",
+				"_POINTS.shx"
+			]
+		},
+		"demURLs": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Raster_DEM_County/",
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Hydro_Breaklines/",
+		"contours": {
+			DWG: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Contours_2ft/DWG/",
+				".dwg"
+			],
+			SHP: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Contours_2ft/SHP/",
+				".dbf",
+				".prj",
+				".shp",
+				".shp.xml",
+				".shx"
+			]
+		},
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/"
+	},
+	"iowa": {
+		"name": "Iowa County",
+		"deliveryName": "Iowa 2010 County Delivery",
+		"deliveryYear": 2010,
+		"lasURLs": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/Classified_LAS/LAS/",
+				".las",
+				".lax"
+			]
+		},
+		"demURLs": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/Raster_DEM_County/",
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/Hydro_Breaklines/",
+		"contours": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/Contours_2ft/SHP/",
+				".dbf",
+				".prj",
+				".shp",
+				".shx"
+			]
+		},
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/"
 	}
 };
