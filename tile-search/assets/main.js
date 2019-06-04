@@ -70,7 +70,9 @@ function featureClick(e) {
 		'<br><br>' +
 		'<b>Contours:</b><div class="download-links"> ' + genLinks(tileName,contours) + '</div>' +
 		'<br>' +
-		'<b>Delivery Folder:</b> ' + genLinks(tileName,delivery) + '<br><br>';			;
+		'<b>Delivery Folder:</b> ' + genLinks(tileName,delivery) + '<br><br>' +
+		'<hr>' +
+		'<a target="_blank" href="https://forms.gle/LWuR678ijmQEMdbB8">Report Error</a>';
 
 	// Insert html string into document
 	$("#sidebar").html(html);
