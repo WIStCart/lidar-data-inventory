@@ -41,7 +41,8 @@ function featureClick(e) {
 	// Get metadata
 	var tileName = e.sourceTarget.feature.properties.tileName
 	var deliveryName = metadata[layerName].deliveryName
-	var lasURLs = metadata[layerName].lasURLs;
+	var classifiedPoints = metadata[layerName].classifiedPoints;
+	var bareEarthPoints = metadata[layerName].bareEarthPoints;
 	var demURLs = metadata[layerName].demURLs;
 	var dsmURLs = metadata[layerName].dsmURLs;
 	var breaklines = metadata[layerName].breaklines;
@@ -57,17 +58,21 @@ function featureClick(e) {
 			deliveryName +
 		'</h2><hr>' +
 		'<h3>Tile ' + tileName + '</h3>' +
-		'<b>LAS:</b><br><div class="download-links">'+ genLinks(tileName,lasURLs) + '</div>' +
+		'<b>Classifed Points:</b><br><div class="download-links">'+ genLinks(tileName,classifiedPoints) + '</div>' +
 		'<br>' +
-		'<b>DEM:</b><div class="download-links">' + genLinks(tileName,demURLs) + '</div>' +
+		'<b>Bare Earth Points:</b><br><div class="download-links">'+ genLinks(tileName,bareEarthPoints) + '</div>' +
 		'<br>' +
-		'<b>DSM:</b><div class="download-links">' + genLinks(tileName,dsmURLs) + '</div>' +
+		'<b>DEM Raster:</b><div class="download-links">' + genLinks(tileName,demURLs) + '</div>' +
+		'<br>' +
+		'<b>DSM Raster:</b><div class="download-links">' + genLinks(tileName,dsmURLs) + '</div>' +
 		'<br>' +
 		'<b>Breaklines:</b> ' + genLinks(tileName,breaklines) +
 		'<br><br>' +
 		'<b>Contours:</b><div class="download-links"> ' + genLinks(tileName,contours) + '</div>' +
 		'<br>' +
-		'<b>Delivery Folder:</b> ' + genLinks(tileName,delivery) + '<br><br>';			;
+		'<b>Delivery Folder:</b> ' + genLinks(tileName,delivery) + '<br><br>' +
+		'<hr>' +
+		'<a target="_blank" href="https://forms.gle/LWuR678ijmQEMdbB8">Report Error</a>';
 
 	// Insert html string into document
 	$("#sidebar").html(html);
