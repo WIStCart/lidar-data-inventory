@@ -39,8 +39,8 @@ function featureClick(e) {
 	// Update sidebar
 
 	// Get metadata
-	var tileName = e.sourceTarget.feature.properties.tileName
-	var deliveryName = metadata[layerName].deliveryName
+	var tileName = e.sourceTarget.feature.properties.tileName;
+	var deliveryName = metadata[layerName].deliveryName;
 	var classifiedPoints = metadata[layerName].classifiedPoints;
 	var bareEarthPoints = metadata[layerName].bareEarthPoints;
 	var demURLs = metadata[layerName].demURLs;
@@ -50,8 +50,8 @@ function featureClick(e) {
 	var delivery = metadata[layerName].deliveryFolder;
 
 	// Build html content string
-	var html = 
-		// '<h1>' + 
+	var html =
+		// '<h1>' +
 		// 	metadata[e.sourceTarget.feature.properties.sourceName].name +
 		// '</h1>' +
 		'<h2>' +
@@ -91,13 +91,13 @@ function genLinks(tileName,urls) {
 
 	// Prepare html blob
 	var htmlContent = "";
-	
+
 	for (const source in urls) {
 
 		var url = urls[source];
 
 		// If multiple sources add source name
-		if (source != "null") { 
+		if (source != "null") {
 			if (htmlContent != "") { htmlContent = htmlContent + '<br>'}  // Add break to separate multiple sources
 			htmlContent = htmlContent + '<br><b>' + source + '</b><br>'
 		}
@@ -135,9 +135,11 @@ function onEachFeature(feature, layer) {
 // Set initial view
 var map = L.map('map');
 
-// Get acquisition 
+// Get acquisition
 var urlParams = new  URLSearchParams(window.location.search);
 var layerName = urlParams.get('layer');
+
+console.log(layerName)
 
 // Add Base Layer
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -173,7 +175,7 @@ var indexLayer = L.geoJson.ajax("layers/" + layerName + ".geojson", {
 })
 indexLayer.addTo(map);
 
-// Zoom to 
+// Zoom to
 indexLayer.addTo(this.map);
 indexLayer.on('data:loaded', function() {
 	this.map.fitBounds(indexLayer.getBounds());

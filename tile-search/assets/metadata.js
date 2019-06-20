@@ -705,5 +705,120 @@ var metadata = {
 		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Langlade/Langlade_2017_3DEP_Delivery/Hydro_Breaklines/",
 		"contours": "N/A",
 		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Langlade/Langlade_2017_3DEP_Delivery/"
+	},
+	"columbia": {
+		"name": "Columbia County",
+		"deliveryName": "Columbia 2011 County Delivery",
+		"deliveryYear": 2011,
+		"classifiedPoints": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Columbia/Columbia_2011_County_Delivery/Classified_LAS/",
+				".las"
+			]
+		},
+		"bareEarthPoints": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Columbia/Columbia_2011_County_Delivery/Bare_Earth_Points/LAS/",
+				".las"
+			]
+		},
+		"demURLs": "N/A",
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Columbia/Columbia_2011_County_Delivery/Hydro_Breaklines/SHP/",
+		"contours": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Columbia/Columbia_2011_County_Delivery/Contours_2ft/SHP/",
+				".dbf",
+				".prj",
+				".shp",
+				".shp.xml",
+				".shx"
+			]
+		},
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Columbia/Columbia_2011_County_Delivery/"
+	},
+	"juneau": {
+	  "name": "Juneau County",
+	  "deliveryName": "Juneau 2010 County Delivery",
+	  "deliveryYear": 2010,
+	  "classifiedPoints": {
+	    null: [
+	      "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Classified_LAS/LAS/",
+	      ".LAS",
+	      ".lasx"
+	    ]
+	  },
+	  "bareEarthPoints": {
+	    LAS: [
+	      "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Bare_Earth_Points/LAS/",
+	      ".LAS"
+	    ],
+	    SHP: [
+	      "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Bare_Earth_Points/SHP/",
+	      "_POINTS.dbf",
+	      "_POINTS.prj",
+	      "_POINTS.SHP",
+	      "_POINTS.shx"
+	    ]
+	  },
+		"demURLs": "N/A",
+	  "dsmURLs": "N/A",
+	  "breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Hydro_Breaklines/SHP/",
+	  "contours": {
+	    null: [
+	      "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/lidar/Juneau/Juneau_2010_County_Delivery/Contours_2ft/SHP/",
+	      ".dbf",
+	      ".prj",
+	      ".shp",
+	      ".shx"
+	    ]
+	  },
+	  "deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/"
+	},
+	"bayfield": {
+	  "name": "Bayfield County",
+		"deliveryName": "Bayfield 2016 3DEP County Delivery",
+		"deliveryYear": 2016,
+		"classifiedPoints": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Bayfield/Bayfield_2016_3DEP_Delivery/Classified_LAS/",
+				".las"
+			]
+		},
+		"bareEarthPoints": "N/A",
+		"demURLs": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Bayfield/Bayfield_2016_3DEP_Delivery/Raster_DEM_Tiles/",
+				".img"
+			]
+		},
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Bayfield/Bayfield_2016_3DEP_Delivery/Hydro_Breaklines/",
+		"contours": "N/A",
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Bayfield/Bayfield_2016_3DEP_Delivery/"
+	},
+	"pierce": {
+		"name": "Pierce County",
+		"deliveryName": "Pierce 2015 County Delivery",
+		"deliveryYear": 2015,
+		"classifiedPoints": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pierce/Pierce2015_County_Delivery/Classified_LAS/",
+				".las"
+			]
+		},
+		"bareEarthPoints": "N/A",
+		"demURLs": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar//Pierce/Pierce2015_County_Delivery/Raster_DEM/",
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pierce/Pierce2015_County_Delivery/Hydro_Breaklines/",
+		"contours": {
+			GDB: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pierce/Pierce2015_County_Delivery/Contours_2ft/GDB/",
+					],
+			SHP: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pierce/Pierce2015_County_Delivery/Contours_2ft/SHP/",
+			]
+		},
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pierce/Pierce2015_County_Delivery/"
 	}
 };
