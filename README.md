@@ -7,7 +7,7 @@ Tile search uses ```layer``` parameter in the url to pass which acquistion to vi
 
 ## Acquisitions
 
-acquistion | layer 
+acquistion | layer
 --- | ---
 Adams 2010 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=adams" target="_blank">```adams```</a>
 Ashland 2014 FEMA Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=ashland" target="_blank">```ashland```</a>
@@ -34,3 +34,5 @@ Lafayette 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-
 Langlade 2017 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=langlade" target="_blank">```langlade```</a>
 Pierce County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```pierce```</a>
 Washington County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```washington```</a>
+Eau Claire County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```eauClaire```</a>
+City of Eau Claire Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```cityOfEauClaire```</a>

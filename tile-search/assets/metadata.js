@@ -837,5 +837,107 @@ var metadata = {
 		"breaklines": "N/A",
 		"contours": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Washington/county_distribution/WI_Washington_new/Contours/",
 		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Washington/county_distribution/WI_Washington_new/"
+	},
+	"eauClaire": {
+		"name": "Eau Claire County",
+		"deliveryName": "Eau Claire 2013 County Delivery",
+		"deliveryYear": 2013,
+		"classifiedPoints": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Classified_LAS/LAS/",
+				".las"
+			]
+		},
+		"bareEarthPoints": {
+		 LAS: [
+			 "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Bare_Earth_Points/LAS/",
+			 ".las"
+		 ],
+		 SHP: [
+			 "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Bare_Earth_Points/SHP/",
+			 "_points.dbf",
+			 "_points.prj",
+			 "_points.shp",
+			 "_points.shx",
+			 "_points.dbf",
+			 "_points.shp.xml"
+		 ]
+	 },
+		"demURLs": {
+	    null: [
+	      "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Raster_DEM_Tiles/ESRI_Grids/",
+	      "_elev/"
+	    ]
+	  },
+		"dsmURLs": "N/A",
+		"breaklines": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Hydro_Breaklines/SHP",
+		"contours": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Contours/SHP/",
+				".dbf",
+				".prj",
+				".shp",
+				".shx"
+			]
+		},
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/"
+	},
+	"cityOfEauClaire": {
+		"name": "City of Eau Claire",
+		"deliveryName": "Eau Claire 2013 City Delivery",
+		"deliveryYear": 2013,
+		"classifiedPoints": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Classified_LAS/LAS/",
+				".las"
+			]
+		},
+		"bareEarthPoints": {
+		 LAS: [
+			 "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Bare_Earth_Points/LAS/",
+			 ".las"
+		 ],
+		 SHP: [
+			 "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Bare_Earth_Points/SHP/",
+			 "_points.dbf",
+			 "_points.prj",
+			 "_points.shp",
+			 "_points.shx",
+			 "_points.dbf",
+			 "_points.shp.xml"
+		 ]
+	 },
+		"demURLs": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Raster_DEM_Tiles/ESRI_Grids/",
+				"_elev/"
+			]
+		},
+		"dsmURLs": "N/A",
+		"breaklines": {
+			GDB: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/DGN/",
+					],
+			SHP: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/SHP/"
+			]
+		},
+		"contours": {
+			GDB: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Contours/DGN/",
+				".dgn"
+					],
+			SHP: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Contours/SHP/",
+				".dbf",
+				".prj",
+				".shp",
+				".shx"
+			]
+		},
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/"
 	}
+
+
+
 };
