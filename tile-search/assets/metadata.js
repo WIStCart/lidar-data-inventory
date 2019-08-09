@@ -820,5 +820,22 @@ var metadata = {
 			]
 		},
 		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pierce/Pierce2015_County_Delivery/"
+	},
+	"washington": {
+		"name": "Washington County",
+		"deliveryName": "Washington 2006 County Delivery",
+		"deliveryYear": 2006,
+		"classifiedPoints": {
+			null: [
+				"ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Washington/county_distribution/WI_Washington_new/LAS/2006LiDAR_AllReturns/",
+				".las"
+			]
+		},
+		"bareEarthPoints": "N/A",
+		"demURLs": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Washington/county_distribution/WI_Washington_new/DTM/",
+		"dsmURLs": "N/A",
+		"breaklines": "N/A",
+		"contours": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Washington/county_distribution/WI_Washington_new/Contours/",
+		"deliveryFolder": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Washington/county_distribution/WI_Washington_new/"
 	}
 };
