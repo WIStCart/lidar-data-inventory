@@ -32,4 +32,5 @@ Kewaunee 2012 County Delivery | <a href="https://wistcart.github.io/lidar-data-i
 La Crosse 2017 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lacrosse" target="_blank">```lacrosse```</a>
 Lafayette 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lafayette" target="_blank">```lafayette```</a>
 Langlade 2017 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=langlade" target="_blank">```langlade```</a>
+Pierce County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```pierce```</a>
 Washington County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```washington```</a>
