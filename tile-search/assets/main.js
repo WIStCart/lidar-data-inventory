@@ -40,39 +40,23 @@ function featureClick(e) {
 
 	// Get metadata
 	var tileName = e.sourceTarget.feature.properties.tileName;
-	var deliveryName = metadata[layerName].deliveryName;
-	var classifiedPoints = metadata[layerName].classifiedPoints;
-	var bareEarthPoints = metadata[layerName].bareEarthPoints;
-	var demURLs = metadata[layerName].demURLs;
-	var dsmURLs = metadata[layerName].dsmURLs;
-	var breaklines = metadata[layerName].breaklines;
-	var contours = metadata[layerName].contours;
-	var delivery = metadata[layerName].deliveryFolder;
+	var name = metadata[layerName].name;
+	var year = metadata[layerName].year;
 
-	// Build html content string
+	// Build html string
 	var html =
-		// '<h1>' +
-		// 	metadata[e.sourceTarget.feature.properties.sourceName].name +
-		// '</h1>' +
 		'<h2>' +
-			deliveryName +
+			name + year +
 		'</h2><hr>' +
-		'<h3>Tile ' + tileName + '</h3>' +
-		'<b>Classifed Points:</b><br><div class="download-links">'+ genLinks(tileName,classifiedPoints) + '</div>' +
-		'<br>' +
-		'<b>Bare Earth Points:</b><br><div class="download-links">'+ genLinks(tileName,bareEarthPoints) + '</div>' +
-		'<br>' +
-		'<b>DEM Raster:</b><div class="download-links">' + genLinks(tileName,demURLs) + '</div>' +
-		'<br>' +
-		'<b>DSM Raster:</b><div class="download-links">' + genLinks(tileName,dsmURLs) + '</div>' +
-		'<br>' +
-		'<b>Breaklines:</b> ' + genLinks(tileName,breaklines) +
-		'<br><br>' +
-		'<b>Contours:</b><div class="download-links"> ' + genLinks(tileName,contours) + '</div>' +
-		'<br>' +
-		'<b>Delivery Folder:</b> ' + genLinks(tileName,delivery) + '<br><br>' +
-		'<hr>' +
-		'<a target="_blank" href="https://forms.gle/LWuR678ijmQEMdbB8">Report Error</a>';
+		'<h3>Tile ' + tileName + '</h3>';
+
+	// Added datasets to html string
+	for (var i=0; i<metadata[layerName].datasets.length; i++) {
+		html += '<b>' + metadata[layerName].datasets[i].name + ':</b><br><div class="download-links">'+ genLinks(tileName,metadata[layerName].datasets[i]) + '</div><br>'
+	}
+
+	// Add report link to html string
+	html += '<a target="_blank" href="https://forms.gle/LWuR678ijmQEMdbB8">Report Error</a>';
 
 	// Insert html string into document
 	$("#sidebar").html(html);
@@ -81,35 +65,23 @@ function featureClick(e) {
 
 }
 
-function genLinks(tileName,urls) {
+function genLinks(tileName,dataset) {
 	// If string not object
-	if (typeof urls === 'string') {
-		var url = urls;
-		if (urls == "N/A") { return url }
-		else { return '<a target="_blank" href="' + url + '">directory</a>' }
+	if (dataset.tiled === false) {
+		return '<a target="_blank" href="' + dataset.baseURL + '">directory</a>'
 	}
 
 	// Prepare html blob
 	var htmlContent = "";
 
-	for (const source in urls) {
-
-		var url = urls[source];
-
-		// If multiple sources add source name
-		if (source != "null") {
-			if (htmlContent != "") { htmlContent = htmlContent + '<br>'}  // Add break to separate multiple sources
-			htmlContent = htmlContent + '<br><b>' + source + '</b><br>'
-		}
-
-		// Add all urls
-		for (var i = 1; i < url.length; i++) {
-			htmlContent = htmlContent + '<a target="_blank" href="' + url[0] + tileName + url[i] + '">' + tileName + url[i] + '</a><br>'
-		}
-		// Add directory link
-		htmlContent = htmlContent +  '<a target="_blank" href="' +  url[0].substring(0, url[0].lastIndexOf("/") + 1) + '">directory</a>'
-
+	for (var i = 0; i < dataset.URLexts.length; i++) {
+		var ext = dataset.URLexts[i];
+		htmlContent += '<a target="_blank" href="' + dataset.baseURL + tileName + ext + '">' + tileName + ext + '</a><br>';
 	}
+
+	// Add directory link
+	htmlContent +=  '<a target="_blank" href="' +  dataset.baseURL.substring(0, dataset.baseURL.lastIndexOf("/") + 1) + '">directory</a>';
+	
 	return htmlContent
 }
 
@@ -138,8 +110,6 @@ var map = L.map('map');
 // Get acquisition
 var urlParams = new  URLSearchParams(window.location.search);
 var layerName = urlParams.get('layer');
-
-console.log(layerName)
 
 // Add Base Layer
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
