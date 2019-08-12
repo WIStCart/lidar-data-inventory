@@ -46,7 +46,7 @@ function featureClick(e) {
 	// Build html string
 	var html =
 		'<h2>' +
-			name + year +
+			name + " " + year +
 		'</h2><hr>' +
 		'<h3>Tile ' + tileName + '</h3>';
 
