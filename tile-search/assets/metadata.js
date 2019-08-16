@@ -1310,7 +1310,6 @@ var metadata = {
           "_points.prj",
           "_points.shp",
           "_points.shx",
-          "_points.dbf",
           "_points.shp.xml"
         ]
       },
@@ -1374,7 +1373,6 @@ var metadata = {
           "_points.prj",
           "_points.shp",
           "_points.shx",
-          "_points.dbf",
           "_points.shp.xml"
         ]
       },
@@ -1421,6 +1419,52 @@ var metadata = {
         "name": "Delivery Folder",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/"
+      }
+    ]
+  },
+  lincoln: {    
+    "name": "Lincoln County",
+    "year": 2015,
+    "datasets": [
+      {
+        "name": "Classified Points LAS",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Classified_LAS/Lincoln",
+        "URLexts": [
+          ".las"
+        ]
+      },
+      {
+        "name": "Countours",
+        "tiled": false,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Contours_2ft/",
+        "URLexts": [
+          
+        ]
+      },
+      {
+        "name": "Breaklines",
+        "tiled": false,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Hydro_Breaklines/",
+        "URLexts": [
+          
+        ]
+      },
+      {
+        "name": "DEM Raster",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Raster_DEM_Tiles/lincoln",
+        "URLexts": [
+          "/"
+        ]
+      },
+      {
+        "name": "DEM Raster County",
+        "tiled": false,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Rasters_DEM_County/",
+        "URLexts": [
+          
+        ]
       }
     ]
   }
