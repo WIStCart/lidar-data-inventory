@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Metadata Tool - LiDAR Tile Index</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Metadata Tool</h1>
+        </div>
+      </div>
+      <h2 class="mt-3">Basic:</h2>
+      <div class="row" onchange="genMetadataPreview()">
+
+        <div class="col-6">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Delivery Name</span>
+            </div>
+            <input id="delivery-name" type="text" class="form-control" placeholder="e.g. Florence County" aria-label="Delivery Name">
+          </div>
+        </div>
+
+      </div>
+      <div class="row" onchange="genMetadataPreview()">
+
+        <div class="col-3">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Year</span>
+            </div>
+            <input id="year" type="text" class="form-control" placeholder="e.g. 2017" aria-label="Year">
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Layer Name</span>
+            </div>
+            <input id="layer-name" type="text" class="form-control" placeholder="e.g. florence" aria-label="Layer Name">
+          </div>
+        </div>
+        
+      </div>
+      <h2 class="mt-3">Datasets:</h2>
+      <form id="datasets-section" onchange="genExtPreview();genMetadataPreview()">
+        <div class="row">
+
+          <div class="col-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Dataset Name</span>
+              </div>
+              <input id="dataset-name" type="text" class="form-control" placeholder="e.g. Classified Points, DEM Raster, Contours GDB" aria-label="Dataset Name">
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="tiled">Tiled?</label>
+              </div>
+              <select class="custom-select" id="tiled" required>
+                <option selected>Choose...</option>
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+              </select>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          
+          <div class="col-9">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Base URL</span>
+              </div>
+              <input id="baseURL" type="text" class="form-control" placeholder="e.g. ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/..." aria-label="Base URL">
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          
+          <div class="col-3">
+
+            <div class="form-group">
+              <label for="URLexts">Extensions for Tiles</label>
+
+              <div class="input-group mb-3">
+                <input id="add-ext" type="text" class="form-control" placeholder="e.g.  .shp" aria-label="Add Extension" aria-describedby="add-ext-button">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" id="add-ext-button">Add</button>
+                </div>
+              </div>
+
+              <select multiple class="form-control" id="URLexts" style="height: 350px;">
+                <option>.las</option>
+                <option>.lax</option>
+                <option>.lasx</option>
+                <option>.prj</option>
+                <option>.img</option>
+                <option>.shp</option>
+                <option>.dbf</option>
+                <option>.shx</option>
+                <option>.shx.xml</option>
+                <option>.sbn</option>
+                <option>.sbx</option>
+                <option>.cpg</option>
+                <option>.dwg</option>
+                <option>.flt</option>
+                <option>.flt.aux.xml</option>
+                <option>.flt.ovr</option>
+                <option>.hdr</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="form-group">
+              <label for="ext-prefix">Prefix for Extension</label>
+              <input type="text" class="form-control" id="ext-prefix" placeholder="e.g. _POINTS">
+            </div>
+            <label for="ext-preview">Preview of extensions:</label>
+            <p id="ext-preview" class="ml-1"></p>
+          </div>
+
+        </div>
+        <div class="row">
+          <button type="button" class="btn btn-secondary btn-lg btn-block col-9" onclick="addDataset();genMetadataPreview()">Add Dataset</button>
+        </div>
+         <div class="row">
+          <ol id="datasets"></ol>
+        </div>
+      </form>
+
+      <h2 class="mt-3">Metadata:</h2>
+      <pre>
+        <code id="output"></code>
+      </pre>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script type="text/javascript">
+      $(function () {
+        $('#add-ext-button').click(function () {
+          var val = $("#add-ext").val();
+          var htm = '';
+          htm += '<option>' + val + '</option>';
+          $('#URLexts').append(htm);
+        });
+      });
+
+      var datasets = {};
+      let index = 0;
+      function addDataset() {
+        var datasetName = $('#dataset-name').val();
+        var tiled = ($('#tiled').val()=='true') ? true:false;
+        var baseURL = $('#baseURL').val();
+        var extPrefix = $('#ext-prefix').val();
+        var URLexts = '"' + extPrefix + $('#URLexts').val().join('",\n                  "' + extPrefix) + '"';
+
+        var dataset = `
+              {
+                "name": "${datasetName}",
+                "tiled": ${tiled},
+                "baseURL": "${baseURL}",
+                "URLexts": [
+                  ${URLexts}
+                ]
+              }
+        `;
+        datasets[index] = dataset;
+        $('#datasets').append(`<li id="dataset-${index}">${datasetName}<button type="button" class="btn" onclick="removeDataset(${index})">X</button></li>`);
+        index++;
+
+        $('#datasets-section')[0].reset();
+        $('#ext-preview').html('');
+      }
+
+      function removeDataset(index) {
+        $(`#dataset-${index}`).remove();
+        delete datasets[index]
+        genMetadataPreview();
+      }
+
+      function genMetadataPreview() {
+        var deliveryName = $('#delivery-name').val();
+        var year = $('#year').val();
+        var layerName = $('#layer-name').val();
+
+        var metadata = `
+          ${layerName}: {    
+            "name": "${deliveryName}",
+            "year": ${year},
+            "datasets": [${Object.values(datasets).join()}    ]
+          }
+        `;
+
+        $('#output').html(metadata);
+      }
+
+      function genExtPreview() {
+        var extPrefix = $('#ext-prefix').val();
+        var text = extPrefix + $('#URLexts').val().join("<br>" + extPrefix);
+        $('#ext-preview').html(text)
+      }
+    </script>
+  </body>
+</html>
