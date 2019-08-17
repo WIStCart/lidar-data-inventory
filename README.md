@@ -37,3 +37,12 @@ Pierce County Delivery | <a href="https://wistcart.github.io/lidar-data-inventor
 Washington County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```washington```</a>
 Eau Claire County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=eauClaire" target="_blank">```eauClaire```</a>
 City of Eau Claire Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=cityOfEauClaire" target="_blank">```cityOfEauClaire```</a>
+
+## Pull Requests
+
+If you would like to add a delivery to the repository:
+
+1. Save a GeoJSON in WGS84 with a single field named `tileName`. This _tileName_ will go between the _baseURL_ and _URLexts_ when generating links.
+2. Add layer to `README.md`.
+3. Add layer to `LidarData.csv` under the `Tile_index` field.
+4. Add layer to metadata to `/tile-search/assets/metadata.js`. The [Metadata Tool](https://wistcart.github.io/lidar-data-inventory/tile-search/metadata/) will make the process of writing the metadata easier.
