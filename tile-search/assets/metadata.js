@@ -1422,50 +1422,9 @@ var metadata = {
       }
     ]
   },
-  lincoln: {    
-    "name": "Lincoln County",
-    "year": 2015,
-    "datasets": [
-      {
-        "name": "Classified Points LAS",
-        "tiled": true,
-        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Classified_LAS/Lincoln",
-        "URLexts": [
-          ".las"
-        ]
-      },
-      {
-        "name": "Countours",
-        "tiled": false,
-        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Contours_2ft/",
-        "URLexts": [
-          
-        ]
-      },
-      {
-        "name": "Breaklines",
-        "tiled": false,
-        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Hydro_Breaklines/",
-        "URLexts": [
-          
-        ]
-      },
-      {
-        "name": "DEM Raster",
-        "tiled": true,
-        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Raster_DEM_Tiles/lincoln",
-        "URLexts": [
-          "/"
-        ]
-      },
-      {
-        "name": "DEM Raster County",
-        "tiled": false,
-        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Rasters_DEM_County/",
-        "URLexts": [
-          
-        ]
-      }
-    ]
-  }
+  lincoln: {"name": "Lincoln County", "year": 2015, "datasets": [{"name": "Classified Points LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Classified_LAS/Lincoln", "URLexts": [".las"] }, {"name": "Countours", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Contours_2ft/", "URLexts": [] }, {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Hydro_Breaklines/", "URLexts": [] }, {"name": "DEM Raster", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Raster_DEM_Tiles/lincoln", "URLexts": ["/"] }, {"name": "DEM Raster County", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Rasters_DEM_County/", "URLexts": [] } ] },
+  manitowoc: {"name": "Manitowoc", "year": 2015, "datasets": [{"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Manitowoc/Manitowoc_2015_3DEP_Delivery/Classified_LAS/", "URLexts": [".las"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Manitowoc/Manitowoc_2015_3DEP_Delivery/Hydro_Breaklines/", "URLexts": [""] } , {"name": "Raster DEM Tiles", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Manitowoc/Manitowoc_2015_3DEP_Delivery/Raster_DEM_Tiles/", "URLexts": [".img"] } , {"name": "Raster DEM County", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Manitowoc/Manitowoc_2015_3DEP_Delivery/Raster_DEM_County/", "URLexts": [""] } ] },
+  marinette: {"name": "Marinette", "year": 2014, "datasets": [{"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Marinette/Marinette_2014_FEMA_Delivery/Classified_LAS/", "URLexts": [".las"] } , {"name": "Points Calibrated Raw Swath", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Marinette/Marinette_2014_FEMA_Delivery/Calibrated_Raw_Swath/", "URLexts": [".las"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Marinette/Marinette_2014_FEMA_Delivery/Hydro_Breaklines/", "URLexts": [""] } ] },
+  monroe: {"name": "Moroe", "year": 2010, "datasets": [{"name": "Points Bare Earth LAS", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Bare_Earth_Points/LAS/", "URLexts": [""] } , {"name": "Points Bare Earth SHP", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Bare_Earth_Points/SHP/", "URLexts": [""] } , {"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Classified_LAS/LAS/", "URLexts": [".las"] } , {"name": "Countours 2ft", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Contours_2ft/", "URLexts": [""] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Hydro_Breaklines/", "URLexts": [""] } ] },
+  ozaukee: {"name": "Ozaukee", "year": 2010, "datasets": [{"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Ozaukee/Ozaukee_2010_WVP_Derived_Products/Classified_LAS_NAD83_EPSG4269/", "URLexts": [".las"] } ] }
 };

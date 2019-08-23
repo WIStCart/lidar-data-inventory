@@ -20,6 +20,8 @@ Crawford 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-i
 Dane 2017 3DEP Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane" target="_blank">```dane```</a>
 Madison 2016 City Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=madison" target="_blank">```madison```</a>
 Douglas 2016 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=douglas" target="_blank">```douglas```</a>
+Eau Claire County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=eauClaire" target="_blank">```eauClaire```</a>
+City of Eau Claire Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=cityOfEauClaire" target="_blank">```cityOfEauClaire```</a>
 Florence 2015 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=florence" target="_blank">```florence```</a>
 Forest 2017 3DEP Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=forest" target="_blank">```forest```</a>
 Grant 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=grant" target="_blank">```grant```</a>
@@ -34,9 +36,12 @@ Lafayette 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-
 Langlade 2017 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=langlade" target="_blank">```langlade```</a>
 Lincoln 2015 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lincoln" target="_blank">```lincoln```</a>
 Pierce County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```pierce```</a>
+Manitowoc County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```manitowoc```</a>
+Marinette County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```marinette```</a>
+Monroe County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```monroe```</a>
+Ozaukee County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```ozaukee```</a>
 Washington County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```washington```</a>
-Eau Claire County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=eauClaire" target="_blank">```eauClaire```</a>
-City of Eau Claire Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=cityOfEauClaire" target="_blank">```cityOfEauClaire```</a>
+
 
 ## Pull Requests
 
