@@ -35,14 +35,14 @@ La Crosse 2017 County Delivery | <a href="https://wistcart.github.io/lidar-data-
 Lafayette 2011 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lafayette" target="_blank">```lafayette```</a>
 Langlade 2017 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=langlade" target="_blank">```langlade```</a>
 Lincoln 2015 County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lincoln" target="_blank">```lincoln```</a>
+Manitowoc County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=manitowoc" target="_blank">```manitowoc```</a>
+Marinette County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=marinette" target="_blank">```marinette```</a>
+Monroe County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=monroe" target="_blank">```monroe```</a>
+Ozaukee County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=ozaukee" target="_blank">```ozaukee```</a>
+Pepin County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pepin" target="_blank">```pepin```</a>
 Pierce County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```pierce```</a>
-Manitowoc County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```manitowoc```</a>
-Marinette County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```marinette```</a>
-Monroe County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```monroe```</a>
-Ozaukee County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```ozaukee```</a>
-Pepin County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```pepin```</a>
-Polk County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```polk```</a>
-Portage County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```portage```</a>
+Polk County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=polk" target="_blank">```polk```</a>
+Portage County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=portage" target="_blank">```portage```</a>
 Washington County Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```washington```</a>
 
 
