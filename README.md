@@ -43,7 +43,19 @@ Pepin County 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inve
 Pierce County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```pierce```</a>
 Polk County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=polk" target="_blank">```polk```</a>
 Portage County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=portage" target="_blank">```portage```</a>
+Racine County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=racine" target="_blank">```racine```</a>
+Richland County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=richland" target="_blank">```richland```</a>
+Sauk County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=sauk" target="_blank">```sauk```</a>
+Sawyer County 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=sawyer" target="_blank">```sawyer```</a>
+Shawano County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=shawano" target="_blank">```shawano```</a>
+Stcroix County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=stcroix" target="_blank">```stcroix```</a>
+Taylor County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=taylor" target="_blank">```taylor```</a>
+Trempealeau County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=trempealeau" target="_blank">```trempealeau```</a>
+Vernon County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=vernon" target="_blank">```vernon```</a>
+Washburn County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washburn" target="_blank">```washburn```</a>
 Washington County 2006 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```washington```</a>
+Winnebago County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=winnebago" target="_blank">```winnebago```</a>
+Wood County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=wood" target="_blank">```wood```</a>
 
 
 ## Pull Requests
