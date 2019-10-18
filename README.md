@@ -20,6 +20,7 @@ Crawford County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-i
 Dane 3DEP 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane" target="_blank">```dane```</a>
 Madison City 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=madison" target="_blank">```madison```</a>
 Douglas County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=douglas" target="_blank">```douglas```</a>
+City of Superior 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=cityOfSuperior" target="_blank">```cityOfSuperior```</a>
 Eau Claire County 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=eauClaire" target="_blank">```eauClaire```</a>
 City of Eau Claire 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=cityOfEauClaire" target="_blank">```cityOfEauClaire```</a>
 Florence County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=florence" target="_blank">```florence```</a>
@@ -54,6 +55,7 @@ Trempealeau County 2014 Delivery | <a href="https://wistcart.github.io/lidar-dat
 Vernon County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=vernon" target="_blank">```vernon```</a>
 Washburn County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washburn" target="_blank">```washburn```</a>
 Washington County 2006 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```washington```</a>
+Waushara County 2017 FEMA Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=waushara" target="_blank">```waushara```</a>
 Winnebago County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=winnebago" target="_blank">```winnebago```</a>
 Wood County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=wood" target="_blank">```wood```</a>
 
