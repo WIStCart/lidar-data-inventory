@@ -42,7 +42,7 @@ var metadata = {
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Adams/Adams_2010_County_Delivery/Derived_Terrain/"
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Adams/Adams_2010_County_Delivery/Hydro_Breaklines/SHP/"
       },
@@ -78,7 +78,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_FEMA_Delivery/Hydro_Breaklines/"
       },
@@ -110,7 +110,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Buffalo/Buffalo_2016_3DEP_Delivery/Hydro_Breaklines/"
       },
@@ -178,7 +178,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Burnett/Burnett_2015_County_Delivery/Hydro_Breaklines/"
       },
@@ -250,7 +250,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Calumet/Calumet_2005_County_Delivery/Hydro_Breaklines/"
       },
@@ -316,7 +316,7 @@ var metadata = {
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Raster_DEM_County/"
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Hydro_Breaklines/"
       },
@@ -368,7 +368,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Dane/Dane_2017_3DEP_Delivery/Hydro_Breaklines/"
       },
@@ -412,7 +412,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Dane/Madison_2016_City_Delivery/Hydro_Breaklines/"
       },
@@ -441,7 +441,7 @@ var metadata = {
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Douglas/Douglas_2016_County_Delivery/Rasters_DEM_County/"
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Douglas/Douglas_2016_County_Delivery/Hydro_Breaklines/"
       },
@@ -522,7 +522,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Hydro_Breaklines/"
       },
@@ -574,7 +574,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Forest/Forest_2017_3DEP_Delivery/Hydro_Breaklines/"
       },
@@ -610,7 +610,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Grant/Grant_2011_County_Delivery/Hydro_Breaklines/SHP/"
       },
@@ -682,7 +682,7 @@ var metadata = {
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Raster_DEM_County/"
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Hydro_Breaklines/"
       },
@@ -740,7 +740,7 @@ var metadata = {
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/Raster_DEM_County/"
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/Hydro_Breaklines/"
       },
@@ -805,7 +805,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Iron/Iron_2015_County_Delivery/Hydro_Breaklines/"
       },
@@ -879,7 +879,7 @@ var metadata = {
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2011_County_Delivery/Rasters_DEM_DNR5ft/"
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2011_County_Delivery/Hydro_Breaklines/"
       },
@@ -929,7 +929,7 @@ var metadata = {
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Kewaunee/Kewaunee_2012_County_Delivery/Raster_DEM_County/"
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Kewaunee/Kewaunee_2012_County_Delivery/Hydro_Breaklines/"
       },
@@ -976,7 +976,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/La_Crosse/La_Crosse_2017_3DEP_Delivery/Hydro_Breaklines/"
       },
@@ -1020,7 +1020,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Lafayette/Lafayette_2011_County_Delivery/Hydro_Breaklines/"
       },
@@ -1071,7 +1071,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Langlade/Langlade_2017_3DEP_Delivery/Hydro_Breaklines/"
       },
@@ -1103,7 +1103,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Columbia/Columbia_2011_County_Delivery/Hydro_Breaklines/SHP/"
       },
@@ -1159,7 +1159,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Hydro_Breaklines/SHP/"
       },
@@ -1202,7 +1202,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Bayfield/Bayfield_2016_3DEP_Delivery/Hydro_Breaklines/"
       },
@@ -1232,7 +1232,7 @@ var metadata = {
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar//Pierce/Pierce2015_County_Delivery/Raster_DEM/"
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pierce/Pierce2015_County_Delivery/Hydro_Breaklines/"
       },
@@ -1323,7 +1323,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Hydro_Breaklines/SHP"
       },
@@ -1386,13 +1386,13 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines GDB",
+        "name": "Breaklines GDB",
         "tiled": true,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/DGN/",
         "URLexts": []
       },
       {
-        "name": "Beaklines SHP",
+        "name": "Breaklines SHP",
         "tiled": true,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/SHP/",
         "URLexts": []
@@ -1431,8 +1431,8 @@ var metadata = {
   pepin: {"name": "Pepin County", "year": 2013, "datasets": [{"name": "Points Bare Earth LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Bare_Earth_Points/LAS/", "URLexts": [".las", ".lasx"] } , {"name": "Points Bare Earth SHP", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Bare_Earth_Points/SHP/", "URLexts": ["_points.prj", "_points.shp", "_points.dbf", "_points.shx", "_points.shp.xml"] } , {"name": "Boundaries", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Boundaries/", "URLexts": [""] } , {"name": "Points Classified LAS", "tiled": true, "baseURL": "", "URLexts": [".las"] } , {"name": "Contours 2ft", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Contours_2ft/SHP/", "URLexts": [".prj", ".shp", ".dbf", ".shx"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Hydro_Breaklines/SHP/", "URLexts": [""] } , {"name": "Raster DEM", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Raster_DEM_County/", "URLexts": [""] } , {"name": "Intensity Images", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Intensity_Images/", "URLexts": [".tfw", ".tif"] } ] },
   polk: {"name": "Polk County", "year": 2015, "datasets": [{"name": "Points Bare Earth LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Bare_Earth_LAS/", "URLexts": [".las"] } , {"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Classified_LAS/LAS/", "URLexts": [".las"] } , {"name": "Contours 2ft", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Contours_2ft/", "URLexts": [".prj", ".shp", ".dbf", ".shx", ".cpg"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Hydro_Breaklines/", "URLexts": [""] } , {"name": "Intensity Images", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Intensity_Images_Tiles/", "URLexts": [".tfw", ".tif"] } , {"name": "Raster DEM County", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Raster_DEM_County/", "URLexts": [""] } , {"name": "Raster DEM Tiled", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Raster_DEM_Tiles/", "URLexts": ["_elev.prj", "_elev.flt", "_elev.flt.aux.xml", "_elev.flt.ovr", "_elev.hdr"] } , {"name": "Raster DSM County", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Raster_DSM_County/", "URLexts": [""] } , {"name": "Raster DSM Tiled", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Raster_DSM_Tiles/", "URLexts": ["_elev.prj", "_elev.flt", "_elev.flt.aux.xml", "_elev.flt.ovr", "_elev.hdr"] } ] },
   portage: {"name": "Portage County", "year": 2016, "datasets": [{"name": "Boundaries", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Portage/Portage_2016_3DEP_Delivery/Boundaries/", "URLexts": [""] } , {"name": "Points Raw Swath", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Portage/Portage_2016_3DEP_Delivery/Calibrated_Raw_Swath/", "URLexts": [""] } , {"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Portage/Portage_2016_3DEP_Delivery/Classified_LAS_usgs/", "URLexts": [".las"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Portage/Portage_2016_3DEP_Delivery/Hydro_Breaklines/", "URLexts": [""] } , {"name": "Raster DEM", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Portage/Portage_2016_3DEP_Delivery/Raster_DEM_Tiles/", "URLexts": [".img"] } ] },
-  racine: {"name": "Racine County", "year": 2010, "datasets": [{"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Classified_LAS/LAS/", "URLexts": [".las"] } , {"name": "Points Classified Raw LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Classified_LAS/Raw_LAS/", "URLexts": [".las"] } , {"name": "Contours", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Contours_2ft/DGN/", "URLexts": [""] } , {"name": "Beaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Hydro_Breaklines/", "URLexts": [""] } , {"name": "Raster DEM County", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Raster_DEM_County/", "URLexts": [""] } , {"name": "Raster DEM Tiles", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Raster_DEM_Tiles/IMG_", "URLexts": [".IMG", ".IMG.aux.xml", ".rrd"] } ] },
-  richland: {"name": "Richland County", "year": 2010, "datasets": [{"name": "Points Bare Earth", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Richland/Richland_2010_County_Delivery/Bare_Earth_Points/", "URLexts": [".las"] } , {"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Richland/Richland_2010_County_Delivery/Classified_LAS/", "URLexts": [".las"] } , {"name": "Beaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Richland/Richland_2010_County_Delivery/Hydro_Breaklines/", "URLexts": [""] } ] },
+  racine: {"name": "Racine County", "year": 2010, "datasets": [{"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Classified_LAS/LAS/", "URLexts": [".las"] } , {"name": "Points Classified Raw LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Classified_LAS/Raw_LAS/", "URLexts": [".las"] } , {"name": "Contours", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Contours_2ft/DGN/", "URLexts": [""] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Hydro_Breaklines/", "URLexts": [""] } , {"name": "Raster DEM County", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Raster_DEM_County/", "URLexts": [""] } , {"name": "Raster DEM Tiles", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Raster_DEM_Tiles/IMG_", "URLexts": [".IMG", ".IMG.aux.xml", ".rrd"] } ] },
+  richland: {"name": "Richland County", "year": 2010, "datasets": [{"name": "Points Bare Earth", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Richland/Richland_2010_County_Delivery/Bare_Earth_Points/", "URLexts": [".las"] } , {"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Richland/Richland_2010_County_Delivery/Classified_LAS/", "URLexts": [".las"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Richland/Richland_2010_County_Delivery/Hydro_Breaklines/", "URLexts": [""] } ] },
   sauk: {"name": "Sauk County", "year": 2011, "datasets": [{"name": "Points Bare Earth DWG", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Bare_Earth_Points/DWG/", "URLexts": [".dwg"] } , {"name": "Points Bare Earth LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Bare_Earth_Points/LAS/", "URLexts": [".las"] } , {"name": "Points Bare Earth SHP", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Bare_Earth_Points/SHP/", "URLexts": ["_POINTS.prj", "_POINTS.SHP", "_POINTS.dbf", "_POINTS.shx", "_POINTS.shp.xml"] } , {"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Classified_LAS/LAS/", "URLexts": [".las"] } , {"name": "Points Classified SHP", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Classified_LAS/SHP/", "URLexts": ["_POINTS.prj", "_POINTS.SHP", "_POINTS.dbf", "_POINTS.shx", "_POINTS.shp.xml"] } , {"name": "Contours 2ft DWG", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Contours_2ft/DWG/", "URLexts": [".dwg"] } , {"name": "Contours 2ft SHP", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Contours_2ft/SHP/", "URLexts": [".prj", ".shp", ".dbf", ".shx"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Hydro_Breaklines/", "URLexts": [""] } ] },
   sawyer: {"name": "Sawyer County", "year": 2017, "datasets": [{"name": "Points Classified LAS ESRI", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sawyer/Sawyer_2017__3DEP_Delivery/Classified_LAS/ESRI/", "URLexts": ["__esri.laz"] } , {"name": "Points Classified LAS USGS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sawyer/Sawyer_2017__3DEP_Delivery/Classified_LAS/USGS/", "URLexts": ["_usgs.las"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sawyer/Sawyer_2017__3DEP_Delivery/Hydro_Breaklines/", "URLexts": [""] } , {"name": "Raster DEM", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Sawyer/Sawyer_2017__3DEP_Delivery/Raster_DEM_Tiles/", "URLexts": [".img"] } ] },
   shawano: {"name": "Shawano County", "year": 2015, "datasets": [{"name": "Points Classified LAS", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Shawano/Shawano_2015_FEMA_Delivery/Classified_LAS/", "URLexts": [".las"] } , {"name": "Breaklines", "tiled": false, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Shawano/Shawano_2015_FEMA_Delivery/Hydro_Breaklines/", "URLexts": [""] } , {"name": "Intensity Images", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Shawano/Shawano_2015_FEMA_Delivery/Intensity_Images/", "URLexts": [".tfw", ".tif"] } , {"name": "Raster DEM", "tiled": true, "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Shawano/Shawano_2015_FEMA_Delivery/Raster_DEM_Tiles/", "URLexts": [".img", ".img.aux.xml", ".rrd"] } ] },
