@@ -46,6 +46,7 @@ Polk County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inven
 Portage County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=portage" target="_blank">```portage```</a>
 Racine County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=racine" target="_blank">```racine```</a>
 Richland County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=richland" target="_blank">```richland```</a>
+Rusk County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=rusk" target="_blank">```rusk```</a>
 Sauk County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=sauk" target="_blank">```sauk```</a>
 Sawyer County 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=sawyer" target="_blank">```sawyer```</a>
 Shawano County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=shawano" target="_blank">```shawano```</a>
