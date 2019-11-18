@@ -116,7 +116,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
 	id: 'mapbox.streets',
-	accessToken: 'pk.eyJ1IjoiZWx6YSIsImEiOiJjanVlNWZ5N2cwb2pyNDR0YzV2YmtteTB4In0.6BAcP2DqZG34BAyy7ug75Q'
+	accessToken: 'pk.eyJ1Ijoid2lzdGNhcnQiLCJhIjoiY2szNTFmcTAzMDMxdjNocjE4eGR2YXhkeCJ9.Q9t62J7gPOHbLc1TL7X-ew'
 }).addTo(map);
 
 // Add WI Counties Layer
