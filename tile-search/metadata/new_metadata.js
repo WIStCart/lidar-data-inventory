@@ -1323,7 +1323,7 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines",
+        "name": "Breaklines",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Hydro_Breaklines/SHP"
       },
@@ -1387,13 +1387,13 @@ var metadata = {
         ]
       },
       {
-        "name": "Beaklines GDB",
+        "name": "Breaklines GDB",
         "tiled": true,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/DGN/",
         "URLexts": []
       },
       {
-        "name": "Beaklines SHP",
+        "name": "Breaklines SHP",
         "tiled": true,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/SHP/",
         "URLexts": []
@@ -1421,6 +1421,100 @@ var metadata = {
         "name": "Delivery Folder",
         "tiled": false,
         "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/"
+      }
+    ]
+  },
+  "clark": {
+    "name": "Clark County",
+    "year": 2018,
+    "datasets": [
+      {
+        "name": "Classified Points",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Classified_LAS/LAS/",
+        "URLexts": [
+          ".las"
+        ]
+      },
+      {
+        "name": "Bare Earth Points LAS",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Bare_Earth_Points/LAS/",
+        "URLexts": [
+          ".las",
+          ".lasx"
+        ]
+      },
+      {
+        "name": "Bare Earth Points TXT",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Bare_Earth_Points/TXT/",
+        "URLexts": [
+          ".txt"
+        ]
+      },
+      {
+        "name": "DEM Raster",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Raster_DEM_Tiles/FLT/",
+        "URLexts": [
+        ".flt",
+        ".hdr",
+        ".prj"
+        ]
+      },
+      {
+        "name": "Culverts",
+        "tiled": false,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Culverts/",
+        "URLexts": []
+      },
+      {
+        "name": "Breaklines SHP",
+        "tiled": false,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Hydro_Breaklines/",
+        "URLexts": []
+      },
+      {
+        "name": "Breaklines DEM tiles",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Hydro_Enforced_DEM_Tiles/",
+        "URLexts": [
+        ".flt",
+        ".hdr",
+        ".prj"
+        ]
+      },
+      {
+        "name": "Contours 1ft SHP",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Contours_1ft/",
+        "URLexts": [
+          ".dbf",
+          ".prj",
+          ".shp",
+          ".shx",
+          ".dbf",
+          ".prj"
+        ]
+      },
+      {
+        "name": "Contours 2ft SHP",
+        "tiled": true,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Contours_2ft/",
+        "URLexts": [
+          ".dbf",
+          ".prj",
+          ".shp",
+          ".shx",
+          ".dbf",
+          ".prj"
+        ]
+      },
+      {
+        "name": "Delivery Folder",
+        "tiled": false,
+        "baseURL": "ftp://ftp.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_WVP_Derived_Products/Rasters_WTM_EPSG3071/"
       }
     ]
   }
