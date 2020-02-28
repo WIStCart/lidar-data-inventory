@@ -7,7 +7,7 @@ function highlight(layer) {
 		fillOpacity: 0.4
 	});
 
-	if (!L.Browser.ie && !L.Browser.opera) {
+	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
 		layer.bringToFront();
 		if(selected !== null){ selected.bringToFront(); }
 	}
