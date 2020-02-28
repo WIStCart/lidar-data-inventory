@@ -15,6 +15,7 @@ Bayfield FEMA 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inv
 Buffalo 3DEP 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=buffalo" target="_blank">```buffalo```</a>
 Burnett County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=burnett" target="_blank">```burnett```</a>
 Calumet County 2005 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=calumet" target="_blank">```calumet```</a>
+Clark County 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=clark" target="_blank">```clark```</a>
 Columbia County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=columbia" target="_blank">```columbia```</a>
 Crawford County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=crawford" target="_blank">```crawford```</a>
 Dane 3DEP 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane" target="_blank">```dane```</a>
