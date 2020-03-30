@@ -20,6 +20,7 @@ Columbia County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-i
 Crawford County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=crawford" target="_blank">```crawford```</a>
 Dane 3DEP 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane" target="_blank">```dane```</a>
 Madison City 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=madison" target="_blank">```madison```</a>
+Dodge County 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dodge" target="_blank">```dodge```</a>
 Douglas County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=douglas" target="_blank">```douglas```</a>
 City of Superior 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=cityOfSuperior" target="_blank">```cityOfSuperior```</a>
 Eau Claire County 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=eauClaire" target="_blank">```eauClaire```</a>
