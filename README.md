@@ -43,11 +43,13 @@ Manitowoc County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-
 Marinette County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=marinette" target="_blank">```marinette```</a>
 Marquette County 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=marquette" target="_blank">```marquette```</a>
 Monroe County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=monroe" target="_blank">```monroe```</a>
+Oneida County 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=oneida" target="_blank">```oneida```</a>
 Ozaukee County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=ozaukee" target="_blank">```ozaukee```</a>
 Pepin County 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pepin" target="_blank">```pepin```</a>
 Pierce County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```pierce```</a>
 Polk County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=polk" target="_blank">```polk```</a>
 Portage County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=portage" target="_blank">```portage```</a>
+Price County 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=price" target="_blank">```price```</a>
 Racine County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=racine" target="_blank">```racine```</a>
 Richland County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=richland" target="_blank">```richland```</a>
 Rusk County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=rusk" target="_blank">```rusk```</a>
