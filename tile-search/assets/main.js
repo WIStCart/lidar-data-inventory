@@ -56,7 +56,10 @@ function featureClick(e) {
 	}
 
 	// Add report link to html string
-	html += '<a target="_blank" href="https://forms.gle/LWuR678ijmQEMdbB8">Report Error</a>';
+	html += '<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdS-g0X5xWf6c4GU-3_lC6UqHeK65M2xq5kTIUgU28Tgd35IA/viewform?usp=pp_url' +
+		'&entry.1535627210=' + (name + ' ' + year).replace(/\s+/g, '+') +
+		'&entry.234183874=' + window.location.href.replace(/=/g, '%3D') +
+		'">Report Error</a>';
 
 	// Insert html string into document
 	$("#sidebar").html(html);
