@@ -224,14 +224,14 @@ var legend = L.control({position: 'topright'});
 legend.onAdd = function (map) {
   // estimate statistics and report in legend box
 	var div = L.DomUtil.create('div', 'info legend'),
-		grades = [2, 1, 0],
-		labelLabel = ["<b class='legend-class'>No Lidar Data Yet</b>",
+		grades = [1, 0],
+		labelLabel = [
 	              	"<b class='legend-class'>County</b>",
 							    "<b class='legend-class'>WisconsinView</b>"],
 		labels = [],
 		from, to;
 
-	for (var i = 2; i >= 0; i--) { //}< grades.length; i++) {
+	for (var i = 1; i >= 0; i--) { //}< grades.length; i++) {
 		from = grades[i];
 		labels.push(
 			'<i style="background:' + getColor(from) + '"></i> ' + labelLabel[i]);
