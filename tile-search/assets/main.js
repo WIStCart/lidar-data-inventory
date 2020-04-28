@@ -35,11 +35,10 @@ var selected = null;
 // END highlight and dehighlight logic
 
 
-function featureClick(e) {
+function featureClick(tileName) {
 	// Update sidebar
 
 	// Get metadata
-	var tileName = e.sourceTarget.feature.properties.tileName;
 	var name = metadata[layerName].name;
 	var year = metadata[layerName].year;
 
@@ -64,8 +63,14 @@ function featureClick(e) {
 	// Insert html string into document
 	$("#sidebar").html(html);
 
+	// Bring feature to front of layer
 	if(typeof layer !== "undefined"){ layer.bringToFront(); }
 
+	// Add or update tile url parameter
+	var urlParams = new  URLSearchParams(window.location.search);
+	urlParams.set('tile', tileName)
+	let urlPath = window.location.protocol + "//" + window.location.host + window.location.pathname + '?' + urlParams;
+	window.history.pushState({ path: urlPath }, '', urlPath);
 }
 
 function genLinks(tileName,dataset) {
@@ -99,7 +104,7 @@ function onEachFeature(feature, layer) {
 		},
 		'click': function (e) {
 			select(e.target);
-			featureClick(e);
+			featureClick(e.sourceTarget.feature.properties.tileName);
 		}
 	});
 
@@ -153,3 +158,8 @@ indexLayer.addTo(this.map);
 indexLayer.on('data:loaded', function() {
 	this.map.fitBounds(indexLayer.getBounds());
 }.bind(this));
+
+// Select initial tile from url parameter if present
+if (urlParams.get('tile') != null) {
+	featureClick(urlParams.get('tile'))
+}
