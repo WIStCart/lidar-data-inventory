@@ -23,6 +23,34 @@
 			font-size: 20px;
 			line-height: 20px;
 		}
+
+		#sidebar .collapsible {
+			border-top: 0;
+			border-right: 0;
+			border-left: 0;
+			margin-left: -0.75rem;
+			margin-right: -0.75rem;
+		}
+		#sidebar .collapsible-header, 
+		#sidebar .collapsible-body {
+			border-bottom: 1px solid #253238;
+		}
+		#sidebar .collapsible-header {
+			display: block;
+		}
+		#sidebar .collapsible .collapsible-header .chevron {
+			float: right;
+			/* height: 24px;
+			width: 24px;
+			line-height: 24px;
+			margin: 20px 0 0 0; */
+			transition: transform .2s;
+			margin: 0;
+			width: min-content;
+		}
+		#sidebar .collapsible>.active .collapsible-header .chevron {
+			transform: rotate(-90deg);
+		}
 	</style>
 
 	<!-- Leaflet -->
@@ -34,6 +62,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 	<!-- Materialize -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
@@ -49,16 +78,14 @@
 	<div class="row" style="margin-bottom: 0;">
 		<div id="map" class="col s6 m7 l8 xl9"></div>
 		<div id="sidebar" class="col s6 m5 l4 xl3 blue-grey darken-4">
-			<div class="card-panel blue darken-2">
-				<h4 class="white-text center-align" style="margin: 0;">Select a Tile</h4>
-			</div>
+			<h5 class="white-text center-align">Select a Tile</h5>
 		</div>
 	</div>
 	
 	
 	<!-- Map Script -->
 	<script type="text/javascript" src="assets/main.js"></script>
-
+	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129066-2"></script>
 	<script>

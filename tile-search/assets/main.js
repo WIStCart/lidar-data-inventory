@@ -40,8 +40,27 @@ function featureClick(tileName) {
 	var name = metadata[layerName].name;
 	var year = metadata[layerName].year;
 
+	// Save collapse state
+	var active = [];
+	$('#sidebar li').each(function() {
+		active.push($(this).attr('class'));
+	});
+	
 	// Update sidebar
-	$("#sidebar").html(genSidebar(name, year, tileName));
+	$('#sidebar').html(genSidebar(name, year, tileName));
+
+	// Initialize collapsable elements
+	var elem = document.querySelector('.collapsible.expandable');
+	var instance = M.Collapsible.init(elem, {
+		accordion: false
+	});
+
+	// Reinstate collapse state
+	$.each(active, function(index, value){
+		if (value == 'active') {
+			instance.open(index);
+		}
+	});
 
 	// Bring feature to front of layer
 	if(typeof layer !== "undefined"){ layer.bringToFront(); }
@@ -56,24 +75,22 @@ function featureClick(tileName) {
 function genSidebar(name, year, tileName) {
 	// Build html string
 	var html = '\
-		<div class="card-panel blue-grey">\
-			<h4 class="white-text center-align" style="margin: 0;">' + name + ' ' + year + '</h4>\
-			<h5 class="white-text center-align" style="margin-bottom: 0;">Tile ' + tileName + '</h5>\
-		</div>';
+		<h5 class="white-text center-align" style="">' + name + ' ' + year + '</h5>\
+		<h6 class="white-text center-align" style="margin-bottom: 1em;">Tile ' + tileName + '</h6>\
+		<ul class="collapsible expandable z-depth-0">';
 
 	// Added datasets to html string
 	for (var i=0; i<metadata[layerName].datasets.length; i++) {
 		html += '\
-			<div class="dataset card blue-grey darken-3">\
-		        <div class="card-content white-text">\
-		          <span class="card-title">' + metadata[layerName].datasets[i].name + '</span>\
-		          <p>'+ genLinks(tileName,metadata[layerName].datasets[i]) + '</p>\
-		        </div>\
-			</div>';
+			<li>\
+				<div class="collapsible-header blue-grey darken-3 white-text">' + metadata[layerName].datasets[i].name + '<i class="material-icons chevron">chevron_left</i></div>\
+				<div class="collapsible-body"><span>'+ genLinks(tileName,metadata[layerName].datasets[i]) + '</span></div>\
+			</li>';
 	}
 
 	// Add report link to html string
 	html += '\
+		</ul>\
 		<div class="center-align" style="margin-bottom: 1rem;">\
 			<a class="waves-effect waves-light btn-large red lighten-2" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdS-g0X5xWf6c4GU-3_lC6UqHeK65M2xq5kTIUgU28Tgd35IA/viewform?usp=pp_url' +
 			'&entry.1535627210=' + (name + ' ' + year).replace(/\s+/g, '+') +
