@@ -36,29 +36,50 @@ var selected = null;
 
 
 function featureClick(tileName) {
-	// Update sidebar
-
 	// Get metadata
 	var name = metadata[layerName].name;
 	var year = metadata[layerName].year;
 
+	// Update sidebar
+	$("#sidebar").html(genSidebar(name, year, tileName));
+
+	// Bring feature to front of layer
+	if(typeof layer !== "undefined"){ layer.bringToFront(); }
+
+	// Add or update tile url parameter
+	var urlParams = new  URLSearchParams(window.location.search);
+	urlParams.set('tile', tileName)
+	let urlPath = window.location.protocol + "//" + window.location.host + window.location.pathname + '?' + urlParams;
+	window.history.pushState({ path: urlPath }, '', urlPath);
+}
+
+function genSidebar(name, year, tileName) {
 	// Build html string
-	var html =
-		'<h2>' +
-			name + " " + year +
-		'</h2><hr>' +
-		'<h3>Tile ' + tileName + '</h3>';
+	var html = '\
+		<div class="card-panel blue-grey">\
+			<h4 class="white-text center-align" style="margin: 0;">' + name + ' ' + year + '</h4>\
+			<h5 class="white-text center-align" style="margin-bottom: 0;">Tile ' + tileName + '</h5>\
+		</div>';
 
 	// Added datasets to html string
 	for (var i=0; i<metadata[layerName].datasets.length; i++) {
-		html += '<b>' + metadata[layerName].datasets[i].name + ':</b><br><div class="download-links">'+ genLinks(tileName,metadata[layerName].datasets[i]) + '</div><br>'
+		html += '\
+			<div class="dataset card blue-grey darken-3">\
+		        <div class="card-content white-text">\
+		          <span class="card-title">' + metadata[layerName].datasets[i].name + '</span>\
+		          <p>'+ genLinks(tileName,metadata[layerName].datasets[i]) + '</p>\
+		        </div>\
+			</div>';
 	}
 
 	// Add report link to html string
-	html += '<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdS-g0X5xWf6c4GU-3_lC6UqHeK65M2xq5kTIUgU28Tgd35IA/viewform?usp=pp_url' +
-		'&entry.1535627210=' + (name + ' ' + year).replace(/\s+/g, '+') +
-		'&entry.234183874=' + window.location.href.replace(/=/g, '%3D') +
-		'">Report Error</a>';
+	html += '\
+		<div class="center-align" style="margin-bottom: 1rem;">\
+			<a class="waves-effect waves-light btn-large red lighten-2" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdS-g0X5xWf6c4GU-3_lC6UqHeK65M2xq5kTIUgU28Tgd35IA/viewform?usp=pp_url' +
+			'&entry.1535627210=' + (name + ' ' + year).replace(/\s+/g, '+') +
+			'&entry.234183874=' + window.location.href.replace(/=/g, '%3D') +
+			'">Report Error</a>\
+		</div>';
 
 	// Insert html string into document
 	$("#sidebar").html(html);
@@ -71,6 +92,8 @@ function featureClick(tileName) {
 	urlParams.set('tile', tileName)
 	let urlPath = window.location.protocol + "//" + window.location.host + window.location.pathname + '?' + urlParams;
 	window.history.pushState({ path: urlPath }, '', urlPath);
+
+	return html
 }
 
 function genLinks(tileName,dataset) {
@@ -138,15 +161,13 @@ var countiesLayer = L.geoJSON(wiCounties, {style: countyStyle});
 countiesLayer.addTo(map);
 map.fitBounds(countiesLayer.getBounds());
 
-// Tile Index
+// Add Tile Index Layer
 var indexStyle = {
 	"fillOpacity": 0,
 	"color": "#000",
 	"weight": 1,
 	"opacity": 1
 };
-
-// Add tile index
 var indexLayer = L.geoJson.ajax("layers/" + layerName + ".geojson", {
 	style: indexStyle,
 	onEachFeature: onEachFeature

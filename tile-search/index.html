@@ -13,18 +13,15 @@
 		}
 		#map {
 			height: 100vh;
-			margin-right: 300px;
+			/* margin-right: 300px; */
 		}
 		#sidebar {
-			float: right;
-			width: 300px;
 			height: 100vh;
-			margin: 0 1em;
-			font-family: Arial, Helvetica, sans-serif;
 			overflow-y: auto;
 		}
-		.download-links {
-			margin-left: 2em;
+		.dataset.card .card-content .card-title {
+			font-size: 20px;
+			line-height: 20px;
 		}
 	</style>
 
@@ -36,6 +33,10 @@
 	<!-- JQuery -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
+	<!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 	<!-- Layers -->
 	<script type="text/javascript" src="assets/layers.js"></script>
 	<script type="text/javascript" src="assets/metadata.js"></script>
@@ -45,10 +46,15 @@
 
 </head>
 <body>
-	<div id="sidebar">
-		<p><h2>Select a Tile</h2></p>
+	<div class="row" style="margin-bottom: 0;">
+		<div id="map" class="col s6 m7 l8 xl9"></div>
+		<div id="sidebar" class="col s6 m5 l4 xl3 blue-grey darken-4">
+			<div class="card-panel blue darken-2">
+				<h4 class="white-text center-align" style="margin: 0;">Select a Tile</h4>
+			</div>
+		</div>
 	</div>
-	<div id="map"></div>
+	
 	
 	<!-- Map Script -->
 	<script type="text/javascript" src="assets/main.js"></script>
