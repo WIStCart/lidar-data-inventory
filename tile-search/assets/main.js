@@ -160,10 +160,10 @@ var urlParams = new  URLSearchParams(window.location.search);
 var layerName = urlParams.get('layer');
 
 // Add Base Layer
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
-	id: 'mapbox.streets',
+	id: 'streets-v11',
 	accessToken: 'pk.eyJ1Ijoid2lzdGNhcnQiLCJhIjoiY2szNTFmcTAzMDMxdjNocjE4eGR2YXhkeCJ9.Q9t62J7gPOHbLc1TL7X-ew'
 }).addTo(map);
 
