@@ -152,8 +152,17 @@ function onEachFeature(feature, layer) {
 
 
 
-// Set initial view
-var map = L.map('map');
+// Set max view
+var maxView = L.latLngBounds(
+	L.latLng(48.5, -82),
+	L.latLng(41, -97.5)
+  );
+  
+// Set initial map view
+var map = L.map('map',{
+	minZoom: 7,
+	maxBounds: maxView
+});
 
 // Get acquisition
 var urlParams = new  URLSearchParams(window.location.search);
