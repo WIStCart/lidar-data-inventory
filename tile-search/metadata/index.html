@@ -98,13 +98,13 @@
               <label for="URLexts">Extensions for Tiles</label>
 
               <div class="input-group mb-3">
-                <input id="add-ext" type="text" class="form-control" placeholder="e.g.  .shp" aria-label="Add Extension" aria-describedby="add-ext-button">
+                <input id="add-ext" type="text" class="form-control" placeholder="e.g.  .shp" aria-label="Add Extension" aria-describedby="add-ext-button" disabled>
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button" id="add-ext-button">Add</button>
+                  <button class="btn btn-outline-secondary" type="button" id="add-ext-button" disabled>Add</button>
                 </div>
               </div>
 
-              <select multiple class="form-control" id="URLexts" style="height: 350px;" onchange="genExtPreview()" disabled="true">
+              <select multiple class="form-control" id="URLexts" style="height: 350px;" onchange="genExtPreview()" disabled>
                 <option>.las</option>
                 <option>.lax</option>
                 <option>.lasx</option>
@@ -129,7 +129,7 @@
           <div class="col-3">
             <div class="form-group">
               <label for="ext-prefix">Prefix for Extension</label>
-              <input type="text" class="form-control" id="ext-prefix" placeholder="e.g. _POINTS">
+              <input type="text" class="form-control" id="ext-prefix" placeholder="e.g. _POINTS" disabled>
             </div>
             <label for="ext-preview">Preview of extensions:</label>
             <p id="ext-preview" class="ml-1"></p>
@@ -227,10 +227,16 @@
 
       function updateForm() {
         if ($("#tiled option:selected").val() != 'true'){
+          $("#add-ext").prop('disabled', true);
+          $("#add-ext-button").prop('disabled', true);
           $("#URLexts").prop('disabled', true);
+          $("#ext-prefix").prop('disabled', true);
           $("#ext-preview").empty();
         } else {
+          $("#add-ext").prop('disabled', false);
+          $("#add-ext-button").prop('disabled', false);
           $("#URLexts").prop('disabled', false);
+          $("#ext-prefix").prop('disabled', false);;
           genExtPreview();
         }
       }
