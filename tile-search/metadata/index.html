@@ -52,7 +52,7 @@
         
       </div>
       <h2 class="mt-3">Datasets:</h2>
-      <form id="datasets-section" onchange="genExtPreview();genMetadataPreview()">
+      <form id="datasets-section" onchange="genMetadataPreview();updateForm()">
         <div class="row">
 
           <div class="col-6">
@@ -104,7 +104,7 @@
                 </div>
               </div>
 
-              <select multiple class="form-control" id="URLexts" style="height: 350px;">
+              <select multiple class="form-control" id="URLexts" style="height: 350px;" onchange="genExtPreview()" disabled="true">
                 <option>.las</option>
                 <option>.lax</option>
                 <option>.lasx</option>
@@ -137,7 +137,7 @@
 
         </div>
         <div class="row">
-          <button type="button" class="btn btn-secondary btn-lg btn-block col-9" onclick="addDataset();genMetadataPreview()">Add Dataset</button>
+          <button type="button" class="btn btn-secondary btn-lg btn-block col-9" onclick="addDataset();genMetadataPreview();updateForm()">Add Dataset</button>
         </div>
          <div class="row">
           <ol id="datasets"></ol>
@@ -173,7 +173,11 @@
         var tiled = ($('#tiled').val()=='true') ? true:false;
         var baseURL = $('#baseURL').val();
         var extPrefix = $('#ext-prefix').val();
-        var URLexts = '"' + extPrefix + $('#URLexts').val().join('",\n                  "' + extPrefix) + '"';
+        if ($("#tiled option:selected").val() == 'true'){
+          var URLexts = '"' + extPrefix + $('#URLexts').val().join('",\n                  "' + extPrefix) + '"';
+        } else {
+          var URLexts = "";
+        }
 
         var dataset = `
               {
@@ -219,6 +223,16 @@
         var extPrefix = $('#ext-prefix').val();
         var text = extPrefix + $('#URLexts').val().join("<br>" + extPrefix);
         $('#ext-preview').html(text)
+      }
+
+      function updateForm() {
+        if ($("#tiled option:selected").val() != 'true'){
+          $("#URLexts").prop('disabled', true);
+          $("#ext-preview").empty();
+        } else {
+          $("#URLexts").prop('disabled', false);
+          genExtPreview();
+        }
       }
     </script>
 
