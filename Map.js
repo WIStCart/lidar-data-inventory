@@ -204,7 +204,7 @@ var cartoCounty = cartodb.createLayer(map, {
   type: 'cartodb',
   maxZoom: 15,
   sublayers: [{type: "cartodb",
-		sql: 'SELECT * FROM bordner_county_bnds',
+		sql: 'SELECT * FROM scobase_wi_county_boundaries_24k',
 		cartocss: cartoCSSCounty
 }]
 },{ https: true })
