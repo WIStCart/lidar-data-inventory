@@ -5,6 +5,9 @@ Search counties here: https://wistcart.github.io/lidar-data-inventory/
 
 Tile search uses ```layer``` parameter in the url to pass which acquistion to view. For example ```https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane```.
 
+Carto Layers:
+scobase_wi_county_boundaries_24k
+
 ## Acquisitions
 
 acquistion | layer
