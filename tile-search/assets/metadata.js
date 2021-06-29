@@ -72,7 +72,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Bayfield/Bayfield_2016_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -96,7 +96,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Buffalo/Buffalo_2016_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -133,13 +133,13 @@ var metadata = {
             }, {
                 "name": "DEM Raster",
                 "tiled": true,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Burnett/Burnett_2015_County_Delivery/Rasters_DEM_Tiles/",
-                "URLexts": ["_elev.flt", "_elev.hdr", "_elev.prj"]
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Burnett/Burnett_2015_County_Delivery/Raster_DEM_Tiles/",
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "DSM Raster",
                 "tiled": true,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Burnett/Burnett_2015_County_Delivery/Rasters_DSM_Tiles/",
-                "URLexts": ["_elev.flt", "_elev.hdr", "_elev.prj"]
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Burnett/Burnett_2015_County_Delivery/Raster_DSM_Tiles/",
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -148,7 +148,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Burnett/Burnett_2015_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".cpg", ".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -221,7 +221,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Raster_DEM_Tiles/FLT/",
-                "URLexts": [".flt", ".hdr", ".prj"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Culverts",
                 "tiled": false,
@@ -236,21 +236,21 @@ var metadata = {
                 "name": "Breaklines DEM tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Hydro_Enforced_DEM_Tiles/",
-                "URLexts": [".flt", ".hdr", ".prj"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours 1ft SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Contours_1ft/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx", ".dbf", ".prj"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours 2ft SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/Contours_2ft/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx", ".dbf", ".prj"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_WVP_Derived_Products/Rasters_WTM_EPSG3071/"
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Clark/Clark_2018_County_Delivery/"
             }
         ]
     },
@@ -275,7 +275,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Columbia/Columbia_2011_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shp.xml", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -582,7 +582,7 @@ var metadata = {
                 "name": "Classified Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Classified_LAS/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Bare Earth Points LAS",
                 "tiled": true,
@@ -592,17 +592,17 @@ var metadata = {
                 "name": "Bare Earth Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Raster_DEM_Tiles/",
-                "URLexts": ["_elev.flt", "_elev.hdr", "_elev.prj"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "DSM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Raster_DSM_Tiles/",
-                "URLexts": ["_elev.flt", "_elev.hdr", "_elev.prj"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -611,7 +611,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".cpg", ".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -641,7 +641,7 @@ var metadata = {
                 "name": "Points Bare Earth SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Fond_du_Lac/county_distribution/WI_Fondulac_new/Lidar_2011_2ft/BareEarth/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shp.xml", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -651,12 +651,12 @@ var metadata = {
                 "name": "Contours DWG",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Fond_du_Lac/county_distribution/WI_Fondulac_new/Lidar_2011_2ft/Contours/DWG/",
-                "URLexts": [".dwg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Fond_du_Lac/county_distribution/WI_Fondulac_new/Lidar_2011_2ft/Contours/SHP/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Terrain",
                 "tiled": false,
@@ -676,7 +676,7 @@ var metadata = {
                 "name": "Point Cloud SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Fond_du_Lac/county_distribution/WI_Fondulac_new/Lidar_2011_2ft/PointCloud/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shp.xml", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -701,7 +701,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Forest/Forest_2017_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
