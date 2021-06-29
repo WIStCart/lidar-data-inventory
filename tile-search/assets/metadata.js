@@ -725,7 +725,7 @@ var metadata = {
                 "name": "Classified Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Grant/Grant_2011_County_Delivery/Classified_LAS/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shp.xml", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -734,7 +734,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Grant/Grant_2011_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -754,7 +754,7 @@ var metadata = {
                 "name": "Classified Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Classified_LAS/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shp.xml", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Bare Earth Points LAS",
                 "tiled": true,
@@ -764,7 +764,7 @@ var metadata = {
                 "name": "Bare Earth Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shp.xml", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "DEM Raster",
                 "tiled": false,
@@ -777,12 +777,12 @@ var metadata = {
                 "name": "Contours DWG",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Contours_2ft/DWG/",
-                "URLexts": [".dwg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shp.xml", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -797,7 +797,7 @@ var metadata = {
                 "name": "Classified Points",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/Classified_LAS/LAS/",
-                "URLexts": [".las", ".lax"]
+                "URLexts": [".las"]
             }, {
                 "name": "Bare Earth Points",
                 "tiled": true,
@@ -815,7 +815,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Iowa/Iowa_2010_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -829,7 +829,7 @@ var metadata = {
         "datasets": [{
                 "name": "Classified Points",
                 "tiled": true,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Iron/Iron_2015_County_Delivery/Raster_DSM_Tiles/IronCo",
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Iron/Iron_2015_County_Delivery/Classified_LAS/IronCo",
                 "URLexts": [".las"]
             }, {
                 "name": "Bare Earth Points",
@@ -840,12 +840,12 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Iron/Iron_2015_County_Delivery/Raster_DEM_Tiles/IronCo",
-                "URLexts": ["_elev.flt", "_elev.hdr", "_elev.prj"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "DSM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Iron/Iron_2015_County_Delivery/Raster_DSM_Tiles/IronCo",
-                "URLexts": ["_elev.flt", "_elev.flt.aux.xml", "_elev.flt.ovr", "_elev.hdr", "_elev.prj"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -854,7 +854,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Iron/Iron_2015_County_Delivery/Contours_2ft/SHP/IronCo",
-                "URLexts": [".cpg", ".dbf", ".prj", ".sbn", ".sbx", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -874,7 +874,7 @@ var metadata = {
                 "name": "Bare Earth Points DWG",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2011_County_Delivery/Bare_Earth_Points/DWG/",
-                "URLexts": [".dwg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Bare Earth Points LAS",
                 "tiled": true,
@@ -884,7 +884,7 @@ var metadata = {
                 "name": "Bare Earth Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2011_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shp.xml", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "DEM Raster",
                 "tiled": false,
@@ -897,12 +897,12 @@ var metadata = {
                 "name": "Contours DWG",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2011_County_Delivery/Contours_2ft/DWG/",
-                "URLexts": [".dwg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2011_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -927,7 +927,7 @@ var metadata = {
                 "name": "Bare Earth Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -936,7 +936,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/lidar/Juneau/Juneau_2010_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
