@@ -923,19 +923,15 @@ var metadata = {
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Bare_Earth_Points/LAS/",
                 "URLexts": [".LAS"]
-            }, {
-                "name": "Bare Earth Points SHP",
-                "tiled": true,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_POINTS.zip"]
-            }, {
+            }, 
+            {
                 "name": "Breaklines",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Hydro_Breaklines/SHP/"
             }, {
                 "name": "Contours",
                 "tiled": true,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/lidar/Juneau/Juneau_2010_County_Delivery/Contours_2ft/SHP/",
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Contours_2ft/SHP/",
                 "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
@@ -964,7 +960,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Kewaunee/Kewaunee_2012_County_Delivery/Contours_2ft/Contour2ft_Tile",
-                "URLexts": [".cpg", ".dbf", ".prj", ".sbn", ".sbx", ".shp", ".shp.xml", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -984,7 +980,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/La_Crosse/La_Crosse_2017_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1013,7 +1009,7 @@ var metadata = {
                 "name": "Bare Earth Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lafayette/Lafayette_2011_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shp.xml", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1022,7 +1018,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lafayette/Lafayette_2011_County_Delivery/Contours_2ft/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1047,7 +1043,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Langlade/Langlade_2017_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1068,7 +1064,7 @@ var metadata = {
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Classified_LAS/Lincoln",
                 "URLexts": [".las"]
             }, {
-                "name": "Countours",
+                "name": "Contours",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lincoln/Lincoln_2015_3DEP_Delivery/Contours_2ft/",
                 "URLexts": []
@@ -1111,7 +1107,7 @@ var metadata = {
                 "name": "Raster DEM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Manitowoc/Manitowoc_2015_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM County",
                 "tiled": false,
@@ -1184,38 +1180,35 @@ var metadata = {
             }
         ]
     },
-    monroe: {
-        "name": "Moroe County",
-        "year": 2010,
+    monroe19: {
+        "name": "Monroe County",
+        "year": 2019,
         "datasets": [{
-                "name": "Points Bare Earth LAS",
-                "tiled": false,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Bare_Earth_Points/LAS/",
-                "URLexts": [""]
-            }, {
-                "name": "Points Bare Earth SHP",
-                "tiled": false,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": [""]
-            }, {
                 "name": "Points Classified LAS",
                 "tiled": true,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Classified_LAS/LAS/",
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Classified_LAS/LAS/",
                 "URLexts": [".las"]
             }, {
-                "name": "Countours 2ft",
+                "name": "Hydro Breaklines",
                 "tiled": false,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Contours_2ft/",
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Hydro_Breaklines/",
                 "URLexts": [""]
-            }, {
-                "name": "Breaklines",
+            }, 
+			{
+                "name": "Raster DEM County",
                 "tiled": false,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Hydro_Breaklines/",
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Raster_DEM_County/",
                 "URLexts": [""]
-            }, {
+            }, 
+			{
+                "name": "Raster DEM",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Raster_DEM_Tiles/",
+                "URLexts": [".zip"]
+            },{
                 "name": "Delivery Folder",
                 "tiled": false,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/"
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/"
             }
         ]
     },
