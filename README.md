@@ -13,7 +13,7 @@ scobase_wi_county_boundaries_24k
 acquistion | layer
 --- | ---
 Adams County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=adams" target="_blank">```adams```</a>
-Ashland FEMA 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=ashland" target="_blank">```ashland```</a>
+Ashland County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=ashland" target="_blank">```ashland```</a>
 Bayfield FEMA 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=bayfield" target="_blank">```bayfield```</a>
 Buffalo 3DEP 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=buffalo" target="_blank">```buffalo```</a>
 Burnett County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=burnett" target="_blank">```burnett```</a>
