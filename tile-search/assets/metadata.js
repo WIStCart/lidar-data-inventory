@@ -47,16 +47,36 @@ var metadata = {
         "datasets": [{
                 "name": "Classified Points",
                 "tiled": true,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_FEMA_Delivery/Classified_LAS/",
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_County_Delivery/Classified_LAS/",
                 "URLexts": [".las"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_FEMA_Delivery/Hydro_Breaklines/"
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_County_Delivery/Hydro_Breaklines/"
             }, {
+                "name": "Contours",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_County_Delivery/Contours_2ft/GDB/"
+            },
+			{
+                "name": "Raster DEM County",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_County_Delivery/Raster_DEM_County/"
+            },
+			{
+                "name": "Raster DSM County",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_County_Delivery/Raster_DSM_County/"
+            },
+			{
+                "name": "Tile Index",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_County_Delivery/Tile_Index/"
+            },
+			{
                 "name": "Delivery Folder",
                 "tiled": false,
-                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_FEMA_Delivery/"
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Ashland/Ashland_2014_County_Delivery/"
             }
         ]
     },
