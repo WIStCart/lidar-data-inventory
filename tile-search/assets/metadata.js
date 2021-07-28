@@ -315,7 +315,7 @@ var metadata = {
                 "name": "Classified Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Classified_LAS/SHP/",
-                "URLexts": [".dbf", ".prj", ".SHP", ".shp.xml", ".shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Bare Earth Points LAS",
                 "tiled": true,
@@ -325,7 +325,7 @@ var metadata = {
                 "name": "Bare Earth Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_POINTS.dbf", "_POINTS.prj", "_POINTS.SHP", "_POINTS.shp.xml", "_POINTS.shx"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "DEM Raster",
                 "tiled": false,
@@ -338,7 +338,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Crawford/Crawford_2011_County_Delivery/Contours_2ft/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shp.xml", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -363,7 +363,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Dane/Dane_2017_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -518,7 +518,7 @@ var metadata = {
                 "name": "Bare Earth Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_points.dbf", "_points.prj", "_points.shp", "_points.shx", "_points.shp.xml"]
+                "URLexts": ["_points.zip"]
             }, {
                 "name": "DEM Raster",
                 "tiled": true,
@@ -532,7 +532,7 @@ var metadata = {
                 "name": "Contours",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_County_Delivery/Contours/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1309,7 +1309,7 @@ var metadata = {
                 "name": "Points Bare Earth SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_points.prj", "_points.shp", "_points.dbf", "_points.shx", "_points.shp.xml"]
+                "URLexts": ["_points.zip"]
             }, {
                 "name": "Boundaries",
                 "tiled": false,
@@ -1318,13 +1318,13 @@ var metadata = {
             }, {
                 "name": "Points Classified LAS",
                 "tiled": true,
-                "baseURL": "",
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Classified_LAS/LAS/",
                 "URLexts": [".las"]
             }, {
                 "name": "Contours 2ft",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1339,7 +1339,7 @@ var metadata = {
                 "name": "Intensity Images",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/Intensity_Images/",
-                "URLexts": [".tfw", ".tif"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1395,7 +1395,7 @@ var metadata = {
                 "name": "Contours 2ft",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Contours_2ft/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx", ".cpg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1405,7 +1405,7 @@ var metadata = {
                 "name": "Intensity Images",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Intensity_Images_Tiles/",
-                "URLexts": [".tfw", ".tif"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM County",
                 "tiled": false,
@@ -1415,7 +1415,7 @@ var metadata = {
                 "name": "Raster DEM Tiled",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Raster_DEM_Tiles/",
-                "URLexts": ["_elev.prj", "_elev.flt", "_elev.flt.aux.xml", "_elev.flt.ovr", "_elev.hdr"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Raster DSM County",
                 "tiled": false,
@@ -1425,7 +1425,7 @@ var metadata = {
                 "name": "Raster DSM Tiled",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Polk/Polk_2015_County_Delivery/Raster_DSM_Tiles/",
-                "URLexts": ["_elev.prj", "_elev.flt", "_elev.flt.aux.xml", "_elev.flt.ovr", "_elev.hdr"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
