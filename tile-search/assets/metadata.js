@@ -1676,7 +1676,7 @@ var metadata = {
                 "name": "Raster DEM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Rusk/Rusk_2011_County_Delivery/Raster_DEM_Tiles/GeoTiff/",
-                "URLexts": [".tfw", ".tif", ".tif.aux.xml", ".tif.ovr", ".tif.xml"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DSM County",
                 "tiled": false,
@@ -1686,7 +1686,7 @@ var metadata = {
                 "name": "Raster DSM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Rusk/Rusk_2011_County_Delivery/Raster_DSM_Tiles/GeoTiff/",
-                "URLexts": [".tfw", ".tif", ".tif.aux.xml", ".tif.ovr", ".tif.xml"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1701,7 +1701,7 @@ var metadata = {
                 "name": "Points Bare Earth DWG",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Bare_Earth_Points/DWG/",
-                "URLexts": [".dwg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Points Bare Earth LAS",
                 "tiled": true,
@@ -1711,7 +1711,7 @@ var metadata = {
                 "name": "Points Bare Earth SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_POINTS.prj", "_POINTS.SHP", "_POINTS.dbf", "_POINTS.shx", "_POINTS.shp.xml"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Points Classified LAS",
                 "tiled": true,
@@ -1721,17 +1721,17 @@ var metadata = {
                 "name": "Points Classified SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Classified_LAS/SHP/",
-                "URLexts": ["_POINTS.prj", "_POINTS.SHP", "_POINTS.dbf", "_POINTS.shx", "_POINTS.shp.xml"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Contours 2ft DWG",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Contours_2ft/DWG/",
-                "URLexts": [".dwg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours 2ft SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sauk/Sauk_2011_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1766,7 +1766,7 @@ var metadata = {
                 "name": "Raster DEM",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sawyer/Sawyer_2017__3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1791,12 +1791,12 @@ var metadata = {
                 "name": "Intensity Images",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Shawano/Shawano_2015_FEMA_Delivery/Intensity_Images/",
-                "URLexts": [".tfw", ".tif"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Shawano/Shawano_2015_FEMA_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img", ".img.aux.xml", ".rrd"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1821,7 +1821,7 @@ var metadata = {
                 "name": "Contours 2ft SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/St_Croix/St_Croix2014_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx", ".cpg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1831,7 +1831,7 @@ var metadata = {
                 "name": "Intensity Images",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/St_Croix/St_Croix2014_County_Delivery/Intensity_Images/",
-                "URLexts": [".tfw", ".tif"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM County",
                 "tiled": false,
@@ -1841,12 +1841,12 @@ var metadata = {
                 "name": "Raster DEM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/St_Croix/St_Croix2014_County_Delivery/Raster_DEM_Tiles/",
-                "URLexts": ["_elev.prj", "_elev.flt", "_elev.hdr"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Raster DSM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/St_Croix/St_Croix2014_County_Delivery/Raster_DSM_Tiles/",
-                "URLexts": ["_elev.prj", "_elev.flt", "_elev.hdr"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1876,7 +1876,7 @@ var metadata = {
                 "name": "Raster DEM",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Taylor/Taylor_2016_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1901,7 +1901,7 @@ var metadata = {
                 "name": "Contours 2ft SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Trempealeau/Trempealeau_2014_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx", ".cpg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1911,17 +1911,17 @@ var metadata = {
                 "name": "Intensity Images",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Trempealeau/Trempealeau_2014_County_Delivery/Intensity_Images_Tiles/",
-                "URLexts": [".tfw", ".tif"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Trempealeau/Trempealeau_2014_County_Delivery/Raster_DEM_Tiles/",
-                "URLexts": ["_elev.prj", "_elev.flt", "_elev.hdr"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Raster DSM",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Trempealeau/Trempealeau_2014_County_Delivery/Raster_DSM_Tiles/",
-                "URLexts": ["_elev.prj", "_elev.flt", "_elev.hdr"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1941,7 +1941,7 @@ var metadata = {
                 "name": "Points Bare Earth SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Vernon/Vernon_2010_County_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_POINTS.prj", "_POINTS.dbf", "_POINTS.shx", "_POINTS.SHP"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Points Classified LAS",
                 "tiled": true,
@@ -1951,12 +1951,12 @@ var metadata = {
                 "name": "Points Classified SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Vernon/Vernon_2010_County_Delivery/Classified_LAS/SHP/",
-                "URLexts": ["_POINTS.prj", "_POINTS.dbf", "_POINTS.shx", "_POINTS.SHP", "_POINTS.shp.xml"]
+                "URLexts": ["_POINTS.zip"]
             }, {
                 "name": "Contours 2ft SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Vernon/Vernon_2010_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1991,7 +1991,7 @@ var metadata = {
                 "name": "Contour 2ft",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Washburn/Washburn_2016_3DEP_Delivery/Contours_2ft/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx", ".cpg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -2001,7 +2001,7 @@ var metadata = {
                 "name": "Raster DEM",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Washburn/Washburn_2016_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -2054,7 +2054,7 @@ var metadata = {
                 "name": "Raster DEM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Waushara/Waushara_2017_FEMA_Delivery/Raster_DEM_Tiles/Hydro-Flattened_DEM2ft/Waushara_",
-                "URLexts": [".img", ".img.aux.xml", ".img.xml", ".rrd"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -2074,12 +2074,12 @@ var metadata = {
                 "name": "Intensity Images",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Winnebago/Winnebago_2014_3DEP_Delivery/Intensity_Images/Winnebago",
-                "URLexts": [".tfw", ".tif"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM Tiled",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Winnebago/Winnebago_2014_3DEP_Delivery/Raster_DEM_Tiles/Winnebago",
-                "URLexts": [".img", ".img.aux.xml", ".img.xml"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM Project",
                 "tiled": false,
@@ -2109,7 +2109,7 @@ var metadata = {
                 "name": "Contours 2ft SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Wood/Wood_2015_County_Delivery/Contours_2ft/SHP/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx", ".cpg"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines",
                 "tiled": false,
@@ -2124,7 +2124,7 @@ var metadata = {
                 "name": "Raster DEM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Wood/Wood_2015_County_Delivery/Raster_DEM_Tiles/",
-                "URLexts": ["_elev.prj", "_elev.flt", "_elev.flt.ovr", "_elev.hdr"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Raster DSM County",
                 "tiled": false,
@@ -2134,7 +2134,7 @@ var metadata = {
                 "name": "Raster DSM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Wood/Wood_2015_County_Delivery/Raster_DSM_Tiles/",
-                "URLexts": ["_elev.prj", "_elev.flt", "_elev.flt.ovr"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Raster Intensity County",
                 "tiled": false,
@@ -2144,7 +2144,7 @@ var metadata = {
                 "name": "Raster Intensity Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Wood/Wood_2015_County_Delivery/Raster_Intensity_Tiles/",
-                "URLexts": [".tfw", ".tif"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
