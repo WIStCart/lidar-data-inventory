@@ -45,7 +45,13 @@ function featureClick(tileName) {
 	$('#sidebar li').each(function() {
 		active.push($(this).attr('class'));
 	});
-	
+
+	// Add or update tile url parameter
+	var urlParams = new  URLSearchParams(window.location.search);
+	urlParams.set('tile', tileName)
+	let urlPath = window.location.protocol + "//" + window.location.host + window.location.pathname + '?' + urlParams;
+	window.history.pushState({ path: urlPath }, '', urlPath);
+
 	// Update sidebar
 	$('#sidebar').html(genSidebar(name, year, tileName));
 
@@ -64,12 +70,6 @@ function featureClick(tileName) {
 
 	// Bring feature to front of layer
 	if(typeof layer !== "undefined"){ layer.bringToFront(); }
-
-	// Add or update tile url parameter
-	var urlParams = new  URLSearchParams(window.location.search);
-	urlParams.set('tile', tileName)
-	let urlPath = window.location.protocol + "//" + window.location.host + window.location.pathname + '?' + urlParams;
-	window.history.pushState({ path: urlPath }, '', urlPath);
 }
 
 function genSidebar(name, year, tileName) {
@@ -92,10 +92,16 @@ function genSidebar(name, year, tileName) {
 	html += '\
 		</ul>\
 		<div class="center-align" style="margin-bottom: 1rem;">\
-			<a class="waves-effect waves-light btn-large red lighten-2" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdS-g0X5xWf6c4GU-3_lC6UqHeK65M2xq5kTIUgU28Tgd35IA/viewform?usp=pp_url' +
-			'&entry.1535627210=' + (name + ' ' + year).replace(/\s+/g, '+') +
-			'&entry.234183874=' + window.location.href.replace(/=/g, '%3D') +
-			'">Report Error</a>\
+			<a class="waves-effect waves-light btn-large red lighten-2" \
+			href="mailto:help@sco.wisc.edu?\
+			subject=LiDAR Tile Viewer - Error Report&\
+			body=\
+				Delivery: '+name+' '+year+' - Tile '+tileName+'%0D%0A\
+				Link: '+window.location.href.replace(/&/g, '%26')+'%0D%0A%0D%0A\
+				Name: %0D%0A%0D%0A\
+				What is the issue?%0D%0A%0D%0A\
+				Broken Link (if applicable): %0D%0A\
+			">Report Error</a>\
 		</div>';
 
 	// Insert html string into document
