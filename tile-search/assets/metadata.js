@@ -387,7 +387,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Dane/Madison_2016_City_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".flt", ".flt.aux.xml", ".flt.ovr", ".hdr", ".prj"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "DSM Raster",
                 "tiled": true,
@@ -557,7 +557,7 @@ var metadata = {
                 "name": "Bare Earth Points SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Bare_Earth_Points/SHP/",
-                "URLexts": ["_points.dbf", "_points.prj", "_points.shp", "_points.shx", "_points.shp.xml"]
+                "URLexts": ["_points.zip"]
             }, {
                 "name": "DEM Raster",
                 "tiled": true,
@@ -577,12 +577,12 @@ var metadata = {
                 "name": "Contours GDB",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Contours/DGN/",
-                "URLexts": [".dgn"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours SHP",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Contours/SHP/",
-                "URLexts": [".dbf", ".prj", ".shp", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1254,7 +1254,7 @@ var metadata = {
                 "name": "Intensity Images Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Oneida/Oneida_2013_County_Delivery/Intensity_Images_Tiles/",
-                "URLexts": [".tif", ".tif.xml", ".tfw"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM County",
                 "tiled": false,
@@ -1264,7 +1264,7 @@ var metadata = {
                 "name": "Raster DEM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Oneida/Oneida_2013_County_Delivery/Raster_DEM_Tiles/",
-                "URLexts": ["_elev.flt", "_elev.flt.xml", "_elev.hdr", "_elev.prj"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Raster DSM County",
                 "tiled": false,
@@ -1274,7 +1274,7 @@ var metadata = {
                 "name": "Raster DSM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Oneida/Oneida_2013_County_Delivery/Raster_DSM_Tiles/",
-                "URLexts": ["_elev.flt", "_elev.flt.xml", "_elev.hdr", "_elev.prj"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1460,7 +1460,7 @@ var metadata = {
                 "name": "Raster DEM",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Portage/Portage_2016_3DEP_Delivery/Raster_DEM_Tiles/",
-                "URLexts": [".img"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1505,7 +1505,7 @@ var metadata = {
                 "name": "Contours SHP 1ft",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Price/Price_2018_County_Delivery/Contours_1ft/SHP/",
-                "URLexts": [".prj", ".shp", ".dbf", ".shx"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Hydro Breaklines",
                 "tiled": false,
@@ -1515,7 +1515,7 @@ var metadata = {
                 "name": "Intensity Images Tiles TIF",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Price/Price_2018_County_Delivery/Intensity_Images_Tiles/TIF/",
-                "URLexts": [".aux", ".tfw", ".tif"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DEM County",
                 "tiled": false,
@@ -1525,7 +1525,7 @@ var metadata = {
                 "name": "Raster DEM Tile FLT",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Price/Price_2018_County_Delivery/Raster_DEM_Tiles/FLT/",
-                "URLexts": [".prj", ".flt", ".hdr", ".aux"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Raster DSM County",
                 "tiled": false,
@@ -1535,7 +1535,7 @@ var metadata = {
                 "name": "Raster DSM Tiles FLT",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Price/Price_2018_County_Delivery/Raster_DSM_Tiles/FLT/",
-                "URLexts": [".prj", ".flt", ".hdr"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1575,7 +1575,7 @@ var metadata = {
                 "name": "Raster DEM Tiles",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2010_County_Delivery/Raster_DEM_Tiles/IMG_",
-                "URLexts": [".IMG", ".IMG.aux.xml", ".rrd"]
+                "URLexts": [".zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
@@ -1610,7 +1610,7 @@ var metadata = {
                 "name": "DEM Raster",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Racine/Racine_2017_SEWRPC_QL1_Reprocessed/Raster_DEM_Tiles/ld17_30ppsm_",
-                "URLexts": ["_elev.img"]
+                "URLexts": ["_elev.zip"]
             }, {
                 "name": "Delivery Folder",
                 "tiled": false,
