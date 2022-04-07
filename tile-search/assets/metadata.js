@@ -613,14 +613,14 @@ var metadata = {
                 "URLexts": ["_elev/"]
             }, {
                 "name": "Breaklines GDB",
-                "tiled": true,
+                "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/DGN/",
-                "URLexts": []
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines SHP",
-                "tiled": true,
+                "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/SHP/",
-                "URLexts": []
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours GDB",
                 "tiled": true,
@@ -645,7 +645,7 @@ var metadata = {
                 "name": "Classified Points LAS",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Classified_LAS/LAS/",
-                "URLexts": [".las", ".lax"]
+                "URLexts": [".las", ".lasx"]
             }, {
                 "name": "Classified Points SHP",
                 "tiled": true,
@@ -882,7 +882,7 @@ var metadata = {
             }
         ]
     },
-    greenLake3DEP : {
+    greenLake3DEP: {
         "name": "Green Lake County (3DEP)",
         "year": 2018,
         "datasets": [{
@@ -1026,7 +1026,7 @@ var metadata = {
             }
         ]
     },
-    jefferson3DEP : {
+    jefferson3DEP: {
         "name": "Jefferson County (3DEP)",
         "year": 2019,
         "datasets": [{
@@ -1166,7 +1166,7 @@ var metadata = {
             }
         ]
     },
-    lafayette3DEP : {
+    lafayette3DEP: {
         "name": "Lafayette County (3DEP)",
         "year": 2019,
         "datasets": [{
@@ -2260,7 +2260,7 @@ var metadata = {
             }
         ]
     },
-    waupaca3DEP : {
+    waupaca3DEP: {
         "name": "Waupaca County (3DEP)",
         "year": 2018,
         "datasets": [{
