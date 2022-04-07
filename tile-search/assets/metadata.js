@@ -41,6 +41,30 @@ var metadata = {
             }
         ]
     },
+    adams3DEP: {
+        "name": "Adams County (3DEM)",
+        "year": 2019,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Adams/Adams_2019_3DEP_Delivery/Classified_LAS/LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Adams/Adams_2019_3DEP_Delivery/Raster_DEM_Tiles/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Adams/Adams_2019_3DEP_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Adams/Adams_2019_3DEP_Delivery/"
+            }
+        ]
+    },
     ashland: {
         "name": "Ashland County",
         "year": 2014,
@@ -216,6 +240,30 @@ var metadata = {
                 "name": "Delivery Folder",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Calumet/Calumet_2005_County_Delivery/"
+            }
+        ]
+    },
+    calumet3DEP: {
+        "name": "Calumet County (3DEP)",
+        "year": 2018,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Calumet/Calumet_2018_3DEP_Delivery/Classified_LAS/LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Calumet/Calumet_2018_3DEP_Delivery/Raster_DEM_Tiles/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Calumet/Calumet_2018_3DEP_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Calumet/Calumet_2018_3DEP_Delivery/"
             }
         ]
     },
@@ -565,14 +613,14 @@ var metadata = {
                 "URLexts": ["_elev/"]
             }, {
                 "name": "Breaklines GDB",
-                "tiled": true,
+                "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/DGN/",
-                "URLexts": []
+                "URLexts": [".zip"]
             }, {
                 "name": "Breaklines SHP",
-                "tiled": true,
+                "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Eau_Claire/Eau_Claire_2013_City_Delivery/Hydro_Breaklines/SHP/",
-                "URLexts": []
+                "URLexts": [".zip"]
             }, {
                 "name": "Contours GDB",
                 "tiled": true,
@@ -597,7 +645,7 @@ var metadata = {
                 "name": "Classified Points LAS",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2015_County_Delivery/Classified_LAS/LAS/",
-                "URLexts": [".las", ".lax"]
+                "URLexts": [".las", ".lasx"]
             }, {
                 "name": "Classified Points SHP",
                 "tiled": true,
@@ -704,6 +752,30 @@ var metadata = {
             }
         ]
     },
+    fondDuLac3DEP: {
+        "name": "Fond du Lac County (3DEP)",
+        "year": 2018,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Fond_du_Lac/FondDuLac_2018_3DEP_Delivery/Classified_LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Fond_du_Lac/FondDuLac_2018_3DEP_Delivery/Raster_DEM/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Fond_du_Lac/FondDuLac_2018_3DEP_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Fond_du_Lac/FondDuLac_2018_3DEP_Delivery/"
+            }
+        ]
+    },
     forest: {
         "name": "Forest County",
         "year": 2017,
@@ -807,6 +879,30 @@ var metadata = {
                 "name": "Delivery Folder",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green/Green_2011_County_Delivery/"
+            }
+        ]
+    },
+    greenLake3DEP: {
+        "name": "Green Lake County (3DEP)",
+        "year": 2018,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green_Lake/Green_Lake_2018_3DEP_Delivery/Classified_LAS/LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green_Lake/Green_Lake_2018_3DEP_Delivery/Raster_DEM/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green_Lake/Green_Lake_2018_3DEP_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Green_Lake/Green_Lake_2018_3DEP_Delivery/"
             }
         ]
     },
@@ -930,6 +1026,30 @@ var metadata = {
             }
         ]
     },
+    jefferson3DEP: {
+        "name": "Jefferson County (3DEP)",
+        "year": 2019,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2019_3DEP_Delivery/Classified_LAS/LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2019_3DEP_Delivery/Raster_DEM_Tiles/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2019_3DEP_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Jefferson/Jefferson_2019_3DEP_Delivery/"
+            }
+        ]
+    },
     juneau: {
         "name": "Juneau County",
         "year": 2010,
@@ -943,7 +1063,7 @@ var metadata = {
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Juneau/Juneau_2010_County_Delivery/Bare_Earth_Points/LAS/",
                 "URLexts": [".LAS"]
-            }, 
+            },
             {
                 "name": "Breaklines",
                 "tiled": false,
@@ -1043,6 +1163,30 @@ var metadata = {
                 "name": "Delivery Folder",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lafayette/Lafayette_2011_County_Delivery/"
+            }
+        ]
+    },
+    lafayette3DEP: {
+        "name": "Lafayette County (3DEP)",
+        "year": 2019,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lafayette/Lafayette_2019_3DEP_Delivery/Classified_LAS/LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lafayette/Lafayette_2019_3DEP_Delivery/Raster_DEM_Tiles/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lafayette/Lafayette_2019_3DEP_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Lafayette/Lafayette_2019_3DEP_Delivery/"
             }
         ]
     },
@@ -1213,13 +1357,13 @@ var metadata = {
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Hydro_Breaklines/",
                 "URLexts": [""]
-            }, 
+            },
 			{
                 "name": "Raster DEM County",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Raster_DEM_County/",
                 "URLexts": [""]
-            }, 
+            },
 			{
                 "name": "Raster DEM",
                 "tiled": true,
@@ -1229,6 +1373,36 @@ var metadata = {
                 "name": "Delivery Folder",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/"
+            }
+        ]
+    },
+    oconto: {
+        "name": "Oconto County (FEMA Delivery)",
+        "year": 2019,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Oconto/Oconto_2019_FEMA_Delivery/Classified_LAS/LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Oconto/Oconto_2019_FEMA_Delivery/Raster_DEM_Tiles/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Intensity Images",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Oconto/Oconto_2019_FEMA_Delivery/Intensity_Images/",
+                "URLexts": [".zip"]
+
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Oconto/Oconto_2019_FEMA_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Oconto/Oconto_2019_FEMA_Delivery/"
             }
         ]
     },
@@ -1344,6 +1518,30 @@ var metadata = {
                 "name": "Delivery Folder",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2013_County_Delivery/"
+            }
+        ]
+    },
+    pepin3DEP: {
+        "name": "Pepin County (3DEP)",
+        "year": 2019,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2019_3DEP_Delivery/Classified_LAS/LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2019_3DEP_Delivery/Raster_DEM_Tiles/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2019_3DEP_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Pepin/Pepin_2019_3DEP_Delivery/"
             }
         ]
     },
@@ -1804,6 +2002,36 @@ var metadata = {
             }
         ]
     },
+    sheboygan: {
+        "name": "Sheboygan County (FEMA Delivery)",
+        "year": 2019,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sheboygan/Sheboygan_2019_FEMA_Delivery/Classified_LAS/LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sheboygan/Sheboygan_2019_FEMA_Delivery/Raster_DEM_Tiles/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Intensity Images",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sheboygan/Sheboygan_2019_FEMA_Delivery/Intensity_Images/",
+                "URLexts": [".zip"]
+
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sheboygan/Sheboygan_2019_FEMA_Delivery/Hydro_Breaklines/"
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Sheboygan/Sheboygan_2019_FEMA_Delivery/"
+            }
+        ]
+    },
     stcroix: {
         "name": "St. Croix County",
         "year": 2014,
@@ -2029,6 +2257,31 @@ var metadata = {
                 "name": "Delivery Folder",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Washington/county_distribution/WI_Washington_new/"
+            }
+        ]
+    },
+    waupaca3DEP: {
+        "name": "Waupaca County (3DEP)",
+        "year": 2018,
+        "datasets": [{
+                "name": "Classified Points",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Waupaca/Waupaca_2018_3DEP_Delivery/Classified_LAS/",
+                "URLexts": [".las"]
+            }, {
+                "name": "DEM Raster",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Waupaca/Waupaca_2018_3DEP_Delivery/Raster_DEM/",
+                "URLexts": [".zip"]
+            }, {
+                "name": "Breaklines",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Waupaca/Waupaca_2018_3DEP_Delivery/Hydro_Breaklines/"
+
+            }, {
+                "name": "Delivery Folder",
+                "tiled": false,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Waupaca/Waupaca_2018_3DEP_Delivery/"
             }
         ]
     },
