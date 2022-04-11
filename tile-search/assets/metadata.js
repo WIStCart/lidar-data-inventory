@@ -42,7 +42,7 @@ var metadata = {
         ]
     },
     adams3DEP: {
-        "name": "Adams County (3DEM)",
+        "name": "Adams County (3DEP)",
         "year": 2019,
         "datasets": [{
                 "name": "Classified Points",
