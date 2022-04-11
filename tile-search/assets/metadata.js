@@ -1344,6 +1344,40 @@ var metadata = {
             }
         ]
     },
+    monroe: {    
+        "name": "Monroe County",
+        "year": 2010,
+        "datasets": [{
+                "name": "Bare Earth LAS",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Bare_Earth_Points/LAS/",
+                "URLexts": [
+                    ".las"
+                ]
+            }, {
+                "name": "Bear Earth SHP",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Bare_Earth_Points/SHP/",
+                "URLexts": [
+                    ".zip"
+                ]
+            }, {
+                "name": "Classified LAS",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Classified_LAS/LAS/",
+                "URLexts": [
+                    ".las"
+                ]
+            }, {
+                "name": "Countours SHP",
+                "tiled": true,
+                "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2010_County_Delivery/Contours_2ft/",
+                "URLexts": [
+                    ".zip"
+                ]
+            }
+        ]
+    },
     monroe19: {
         "name": "Monroe County",
         "year": 2019,
@@ -1357,19 +1391,17 @@ var metadata = {
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Hydro_Breaklines/",
                 "URLexts": [""]
-            },
-			{
+            }, {
                 "name": "Raster DEM County",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Raster_DEM_County/",
                 "URLexts": [""]
-            },
-			{
+            }, {
                 "name": "Raster DEM",
                 "tiled": true,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/Raster_DEM_Tiles/",
                 "URLexts": [".zip"]
-            },{
+            }, {
                 "name": "Delivery Folder",
                 "tiled": false,
                 "baseURL": "https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Monroe/Monroe_2019_3DEP_Delivery/"
