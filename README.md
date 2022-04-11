@@ -13,15 +13,17 @@ scobase_wi_county_boundaries_24k
 acquistion | layer
 --- | ---
 Adams County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=adams" target="_blank">```adams```</a>
+Adams County 3DEP 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=adams3DEP" target="_blank">```adams3DEP```</a>
 Ashland County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=ashland" target="_blank">```ashland```</a>
-Bayfield FEMA 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=bayfield" target="_blank">```bayfield```</a>
-Buffalo 3DEP 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=buffalo" target="_blank">```buffalo```</a>
+Bayfield County 3DEP 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=bayfield" target="_blank">```bayfield```</a>
+Buffalo County 3DEP 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=buffalo" target="_blank">```buffalo```</a>
 Burnett County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=burnett" target="_blank">```burnett```</a>
 Calumet County 2005 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=calumet" target="_blank">```calumet```</a>
+Calumet County 3DEP 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=calumet3DEP" target="_blank">```calumet3DEP```</a>
 Clark County 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=clark" target="_blank">```clark```</a>
 Columbia County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=columbia" target="_blank">```columbia```</a>
 Crawford County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=crawford" target="_blank">```crawford```</a>
-Dane 3DEP 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane" target="_blank">```dane```</a>
+Dane County 3DEP 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dane" target="_blank">```dane```</a>
 Madison City 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=madison" target="_blank">```madison```</a>
 Dodge County 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=dodge" target="_blank">```dodge```</a>
 Douglas County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=douglas" target="_blank">```douglas```</a>
@@ -30,25 +32,32 @@ Eau Claire County 2013 Delivery | <a href="https://wistcart.github.io/lidar-data
 City of Eau Claire 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=cityOfEauClaire" target="_blank">```cityOfEauClaire```</a>
 Florence County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=florence" target="_blank">```florence```</a>
 Fond du Lac County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=fondDuLac" target="_blank">```fondDuLac```</a>
-Forest 3DEP 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=forest" target="_blank">```forest```</a>
+Fond du Lac County 3DEP 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=fondDuLac3DEP" target="_blank">```fondDuLac3DEP```</a>
+Forest County 3DEP 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=forest" target="_blank">```forest```</a>
 Grant County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=grant" target="_blank">```grant```</a>
 Green County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=green" target="_blank">```green```</a>
+Green Lake County 3DEP 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=greenLake3DEP" target="_blank">```greenLake3DEP```</a>
 Iowa County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=iowa" target="_blank">```iowa```</a>
 Iron County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=iron" target="_blank">```iron```</a>
 Jefferson County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=jefferson" target="_blank">```jefferson```</a>
+Jefferson County 3DEP 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=jefferson3DEP" target="_blank">```jefferson3DEP```</a>
 Juneau County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=juneau" target="_blank">```juneau```</a>
 Kewaunee County 2012 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=kewaunee" target="_blank">```kewaunee```</a>
 La Crosse County 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lacrosse" target="_blank">```lacrosse```</a>
 Lafayette County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lafayette" target="_blank">```lafayette```</a>
+Lafayette County 3DEP 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lafayette3DEP" target="_blank">```lafayette3DEP```</a>
 Langlade County 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=langlade" target="_blank">```langlade```</a>
 Lincoln County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=lincoln" target="_blank">```lincoln```</a>
 Manitowoc County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=manitowoc" target="_blank">```manitowoc```</a>
 Marinette County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=marinette" target="_blank">```marinette```</a>
 Marquette County 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=marquette" target="_blank">```marquette```</a>
-Monroe County 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=monroe19" target="_blank">```monroe```</a>
+Monroe County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=monroe" target="_blank">```monroe```</a>
+Monroe County 3DEP 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=monroe19" target="_blank">```monroe19```</a>
+Oconto County FEMA 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=oconto" target="_blank">```oconto```</a>
 Oneida County 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=oneida" target="_blank">```oneida```</a>
 Ozaukee County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=ozaukee" target="_blank">```ozaukee```</a>
 Pepin County 2013 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pepin" target="_blank">```pepin```</a>
+Pepin County 3DEP 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pepin3DEP" target="_blank">```pepin3DEP```</a>
 Pierce County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=pierce" target="_blank">```pierce```</a>
 Polk County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=polk" target="_blank">```polk```</a>
 Portage County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=portage" target="_blank">```portage```</a>
@@ -60,14 +69,16 @@ Rusk County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inven
 Sauk County 2011 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=sauk" target="_blank">```sauk```</a>
 Sawyer County 2017 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=sawyer" target="_blank">```sawyer```</a>
 Shawano County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=shawano" target="_blank">```shawano```</a>
-Stcroix County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=stcroix" target="_blank">```stcroix```</a>
+Sheboygan County FEMA 2019 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=sheboygan" target="_blank">```sheboygan```</a>
+St. Croix County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=stcroix" target="_blank">```stcroix```</a>
 Taylor County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=taylor" target="_blank">```taylor```</a>
 Trempealeau County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=trempealeau" target="_blank">```trempealeau```</a>
 Vernon County 2010 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=vernon" target="_blank">```vernon```</a>
 Washburn County 2016 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washburn" target="_blank">```washburn```</a>
 Washington County 2006 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=washington" target="_blank">```washington```</a>
+Waupaca County 3DEP 2018 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=waupaca3DEP" target="_blank">```waupaca3DEP```</a>
 Waushara County 2017 FEMA Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=waushara" target="_blank">```waushara```</a>
-Winnebago County 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=winnebago" target="_blank">```winnebago```</a>
+Winnebago County 3DEP 2014 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=winnebago" target="_blank">```winnebago```</a>
 Wood County 2015 Delivery | <a href="https://wistcart.github.io/lidar-data-inventory/tile-search/?layer=wood" target="_blank">```wood```</a>
 
 
