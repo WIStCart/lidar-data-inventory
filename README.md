@@ -1,3 +1,8 @@
+# **⚠️ This Repository is Deprecated ⚠️**
+If you want find the most up-to-date LiDAR data inventory for Wisconsin, visit https://www.sco.wisc.edu/data/elevationlidar/ or https://geodata.wisc.edu/
+
+---
+
 # lidar-data-inventory
 Web maps for searching LiDAR data on the WisconsinView Data Portal.
 
